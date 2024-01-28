@@ -1,0 +1,7 @@
+{
+  "name": "portfolio-nieltorres",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
