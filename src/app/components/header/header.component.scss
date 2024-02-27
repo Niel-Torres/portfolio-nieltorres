@@ -1,0 +1,44 @@
+
+.header {
+    padding: 25px 0px 25px 0px;
+    background-color: antiquewhite;
+
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    flex-wrap: wrap;
+    padding-right: 8%;
+    padding-left: 8%;
+}
+
+.container {
+    flex: 1;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+    max-width: 1000px;
+}
+
+.header_links {
+    ion-label {
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        text-transform: capitalize;
+    }
+}
+
+
+@media screen and (max-width: 767px){
+    .container {
+        justify-content: center;    
+    }
+
+    .header_links {
+        display: none;
+    }
+}
+

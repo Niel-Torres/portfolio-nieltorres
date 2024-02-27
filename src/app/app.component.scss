@@ -1,0 +1,27 @@
+
+
+  
+  .prueba {
+    background: rgb(41, 53, 82);
+    position: absolute !important;
+    top: -50% !important;
+    left: 39% !important;
+    width: 2223px;
+    height: 1580px;
+    border-radius: 50%;
+    z-index: 0;
+    color: red;
+  }
+  
+  .nav-links {
+    font-family: sans-serif;
+    font-weight: 300;
+  
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  }
