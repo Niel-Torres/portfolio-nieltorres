@@ -38,32 +38,14 @@
   }
 
   .portfolio {
-    /* background: #fafafa; */
     background-color: grey;
     padding: 10px;
-    /* background: red; */
   }
   
   .project {
-    /* border-top: 10px solid red;
-    border-right: 10px solid green;
-    border-left: 10px solid orange;
-    border-bottom: 10px solid pink; */
-    /* color: blue; */
-    /* border-top-color: red;
-    border-top-width: 15px;
-    border-top-style: solid; */
     border: 5px solid gray;
     border-radius: 10px;
-    /* border-top-left-radius: 50px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px; */
-    /* margin: 10px; */
     margin-bottom: 15px;
-    /* margin-right
-    margin-left 
-    margin-top */
     padding: 35px;
     background: white;
     display: flex;
@@ -85,10 +67,6 @@
   .project strong {
     font-family: 'Fjalla One', sans-serif;
   }
-
-  /* .project-date {
-    margin: 10px 0;
-  } */
   
   .project-title {
     font-size: 30px;
@@ -137,26 +115,83 @@
     margin-bottom: 12px;
   }
 
-  .experience-container.list-container {
-   padding: 10px 0;
-  }
-
   ol li .timeline-head{
     display: flex;
     text-decoration: none;
     color: black;
   }
 
-  .experience-container .list-container figure {
-    min-width: 60px;
-    flex: initial;
-  }
+  .experience-container.list-container {
+    padding: 10px 0;
+   }
 
-  .experience-container .list-container .timeline, .experience-container .list-container figure>img {
-    display: block;
-    width: 48px;
-    height: 48px; 
-    margin-top: 4px;
+  .experience-container {
+
+    width: 100%;
+    margin-left: 10%;
+
+    .list-container {
+        .timeline {
+            background-image: none;
+            -ms-flex-negative: 0;
+            flex-shrink: 0;
+            margin-top: 0;
+
+            display: block;
+            width: 48px;
+            height: 48px;
+            /* margin-top: 4px; */
+            margin-right: 12px;
+        }
+
+        .timeline, figure>img {
+            display: block;
+            width: 48px;
+            height: 48px; 
+            margin-top: 4px;
+        }
+
+    }
+
+    .landmark {
+        position: relative;
+        display: block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color:#d8d8d8;
+    }
+
+    .landmark-container {
+        display: flex;
+        height: 2rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .timeline.path::before {
+        content: "";
+        position: absolute;
+        top: 12px;
+        left: 24px;
+        width: 1px;
+        height: 100%;
+        background: #d8d8d8;
+    }
+
+    dl {
+        padding-bottom: 12px;
+    }
+
+    dd {
+        margin-right: 5px;
+    }
+
+    .entity-description{
+        font-size: .9em;
+       // display: none;
+    }
+    
   }
 
   .empresa{
@@ -171,20 +206,6 @@
     font-size: 1em;
   }
 
-  .experience-container .list-container .timeline {
-    background-image: none;
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
-    margin-top: 0;
-  }
-
-  .experience-container .list-container .timeline {
-    display: block;
-    width: 48px;
-    height: 48px;
-    /* margin-top: 4px; */
-    margin-right: 12px;
-  }
 
   .role-container {
     display: flex;
@@ -192,9 +213,6 @@
     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubuntu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-serif;
   }
 
-  .experience-container dl {
-    padding-bottom: 12px;
-  }
 
   dl {
     display: block;
@@ -202,36 +220,6 @@
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-  }
-
-  .experience-container dd {
-    margin-right: 5px;
-  }
-
-  .experience-container .landmark {
-    position: relative;
-    display: block;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color:#d8d8d8;
-  }
-
-  .experience-container .landmark-container {
-    display: flex;
-    height: 2rem;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .experience-container .timeline.path::before {
-    content: "";
-    position: absolute;
-    top: 12px;
-    left: 24px;
-    width: 1px;
-    height: 100%;
-    background: #d8d8d8;
   }
 
   .tecnologias-herramientas{
@@ -256,10 +244,6 @@
     font-size: .8em;
     font-weight: 500;
     color: rgba(0,0,0,0.6);
-  }
-
-  .experience-container .entity-description{
-    font-size: .9em;
   }
 
   .tecnologia-text, .herramienta-text {
@@ -313,8 +297,25 @@
         margin-bottom: 10px;
         text-transform: capitalize;
     }
-;
   }
+
+  .job-experience{
+    display: flex;
+    flex-wrap: nowrap;
+
+    .job-experience_header{
+        width: 350px;
+    }
+
+    .iconShowMore{
+        font-size: 30px;
+        color: green;
+        display: flex;
+        align-items: center;
+        margin-left: 55px;
+    }
+  }    
+
 
 
   /* Desktop first que empieces desde el MQ más grande*/
@@ -331,26 +332,10 @@
       font-size: 2em; 
     }
 
-    .portfolio{
-      /* padding: 0; */
-    }
-
     .container-job {
       padding: 0 1em;
     }
   }
-
-  @media screen and (max-width: 1919px){
-
-  }  
-
-  @media screen and (max-width: 1023px){
- 
-  } 
-  
-  @media screen and (min-width: 768px) and (max-width: 970px){
-
-  }  
 
   @media screen and (max-width: 767px){
 
@@ -403,10 +388,26 @@
       margin-right: 10px;
     }
 
+    .job-experience{
+
+        .iconShowMore{
+            margin-left: 25px;
+        }
+    } 
+
   }
 
-  @media screen and (max-width: 540px){
+  @media screen and (max-width: 590px){
+    .job-experience{
 
+        .job-experience_header{
+            width: 300px;
+        }
+
+        .iconShowMore{
+            margin-left: 20px;
+        }
+    } 
   }
 
   @media screen and (max-width: 480px){
@@ -435,6 +436,16 @@
     .experience-roles-container {
       margin-right: 2em;
     }
+
+    .job-experience{
+        .job-experience_header{
+            width: auto;
+        }
+
+        .iconShowMore{
+            margin-left: 20px;
+        }
+    } 
 
   }
 
@@ -465,9 +476,11 @@
       font-size: .8em;
     }
 
+    .job-experience{
+        .iconShowMore{
+            margin-left: 0px;
+        }
+    } 
+
   }
 
-
-  @media screen and (max-width: 320px) {
- 
-  }

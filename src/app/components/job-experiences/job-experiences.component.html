@@ -29,12 +29,21 @@
                       </div>
                     </div>
                     <dl>
-                      <dt class="medium-semibold"><span>Scrum Master | Technical Lead Developer</span></dt>
-                      <dd class="medium time-period">
-                        <span class="medium">abr. 2020 - </span><span class="medium">actualidad • 1 año</span>
-                      </dd>
-                      <dd class="small-light entity-location"><span>Parque empresarial La Finca, Pozuelo de Alarcón, Madrid</span></dd>
-                      <dd class="medium entity-description">
+                      <div class="job-experience">
+                        <div class="job-experience_header">
+                          <dt class="medium-semibold"><span>Scrum Master | Technical Lead Developer</span></dt>
+                          <dd class="medium time-period">
+                            <span class="medium">abr. 2020 - </span><span class="medium">actualidad • 1 año</span>
+                          </dd>
+                          <dd class="small-light entity-location"><span>Parque empresarial La Finca, Pozuelo de Alarcón, Madrid</span></dd>
+                        </div>
+                        <div (click)="showJobExperience()" class="iconShowMore">
+                          <dd>
+                            <ion-icon slot="icon-only" [name]="iconName"></ion-icon>
+                          </dd>
+                        </div>
+                      </div>
+                      <dd class="medium entity-description" *ngIf="showDetailJobExperience">
                         <div class="description medium">
                           <span class="description-text">Scrum Master | Technical Lead Developer - Hybrid Mobile App con Angular JS y Ionic 1</span>
                           <br>
@@ -61,12 +70,21 @@
                       </div>
                     </div>
                     <dl>
-                      <dt class="medium-semibold"><span>Solutions Analyst | Mobile App Developer</span></dt>
-                      <dd class="medium time-period">
-                        <span class="medium">feb. 2019 - </span><span class="medium">abr. 2020 • 1 año y 3 meses</span>
-                      </dd>
-                      <dd class="small-light entity-location"><span>Parque empresarial La Finca, Pozuelo de Alarcón, Madrid</span></dd>
-                      <dd class="medium entity-description">
+                      <div class="job-experience">
+                        <div class="job-experience_header">
+                          <dt class="medium-semibold"><span>Solutions Analyst | Mobile App Developer</span></dt>
+                          <dd class="medium time-period">
+                            <span class="medium">feb. 2019 - </span><span class="medium">abr. 2020 • 1 año y 3 meses</span>
+                          </dd>
+                          <dd class="small-light entity-location"><span>Parque empresarial La Finca, Pozuelo de Alarcón, Madrid</span></dd>
+                        </div>
+                        <div (click)="showJobExperience()" class="iconShowMore">
+                          <dd>
+                            <ion-icon slot="icon-only" [name]="iconName"></ion-icon>
+                          </dd>
+                        </div>
+                      </div>
+                      <dd class="medium entity-description" *ngIf="showDetailJobExperience">
                         <div class="description medium">
                           <span class="description-text">Analista/Desarrollador - Hybrid Mobile App con Angular 5 y Ionic 3</span>
                           <br>
@@ -93,12 +111,22 @@
                       </div>
                     </div>
                     <dl>
-                      <dt class="medium-semibold"><span>Solutions Assistant | Developer PHP</span></dt>
-                      <dd class="medium time-period">
-                        <span class="medium">jun. 2017 - </span><span class="medium">feb. 2019 • 1 año y 9 meses</span>
-                      </dd>
-                      <dd class="small-light entity-location"><span>Camino de la Fuente de la Mora, 1, Madrid</span></dd>
-                      <dd class="medium entity-description">
+                      <div class="job-experience">
+                        <div class="job-experience_header">
+                          <dt class="medium-semibold"><span>Solutions Assistant | Developer PHP</span></dt>
+                          <dd class="medium time-period">
+                            <span class="medium">jun. 2017 - </span><span class="medium">feb. 2019 • 1 año y 9 meses</span>
+                          </dd>
+                          <dd class="small-light entity-location"><span>Camino de la Fuente de la Mora, 1, Madrid</span></dd>
+                        </div>
+                        <div (click)="showJobExperience()" class="iconShowMore">
+                          <dd>
+                            <ion-icon slot="icon-only" [name]="iconName"></ion-icon>
+                          </dd>
+                        </div>
+                        
+                      </div>
+                      <dd class="medium entity-description" *ngIf="showDetailJobExperience">
                         <div class="description medium">
                           <span>Desarrollo/Mantenimiento de aplicaciones web con Framework Symfony PHP, HTML, CSS, Javascript, MySQL y metodología de trabajo Agile. Dichas aplicaciones estaban dirigidas a distribuidores y puntos de venta de la empresa Orange.</span>
                         </div>
@@ -170,12 +198,22 @@
                       </div>
                     </div>
                     <dl>
-                      <dt class="medium-semibold"><span>Developer PHP</span></dt>
-                      <dd class="medium time-period">
-                        <span class="medium">sept. 2016 - </span><span class="medium">jun. 2017 • 10 meses</span>
-                      </dd>
-                      <dd class="small-light entity-location"><span>Madrid y alrededores, España</span></dd>
-                      <dd class="medium entity-description">
+                      <div class="job-experience">
+                        <div class="job-experience_header">
+                          <dt class="medium-semibold"><span>Developer PHP</span></dt>
+                          <dd class="medium time-period">
+                            <span class="medium">sept. 2016 - </span><span class="medium">jun. 2017 • 10 meses</span>
+                          </dd>
+                          <dd class="small-light entity-location"><span>Madrid y alrededores, España</span></dd>
+                        </div>
+                        <div (click)="showJobExperience()" class="iconShowMore">
+                          <dd>
+                            <ion-icon slot="icon-only" [name]="iconName"></ion-icon>
+                          </dd>
+                        </div>
+                      
+                      </div>
+                      <dd class="medium entity-description" *ngIf="showDetailJobExperience">
                         <div class="description medium">
                           <span class="description-text">Desarrollo y mantenimiento de aplicaciones web PHP con metodología de trabajo Agile. Dichas aplicaciones estaban dirigidas a distribuidores y puntos de venta de la empresa Orange.</span>
                           <span class="description-text">Tecnologías usadas en diversos proyectos :</span>

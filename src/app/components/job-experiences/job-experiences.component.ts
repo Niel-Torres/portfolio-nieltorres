@@ -7,11 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class JobExperiencesComponent  implements OnInit {
 
+  showDetailJobExperience: boolean = false;
+  iconName: string = 'chevron-down-circle-outline';
+
   constructor() {
 
 
    }
 
   ngOnInit() {}
+  
+  showJobExperience() {
+    this.showDetailJobExperience = !this.showDetailJobExperience;
+    this.iconName = (this.iconName === 'chevron-down-circle-outline') ? 'chevron-up-circle-outline' : 'chevron-down-circle-outline';
+  }
 
 }
