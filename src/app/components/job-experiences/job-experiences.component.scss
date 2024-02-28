@@ -69,18 +69,28 @@
   }
   
   .project-title {
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 0;
     margin-bottom: 10px;
     text-align: center;
   }
   
   .project-details {
-    width: 40%;
+    //width: 40%;
   }
   
   .project-imageContainer {
-    width: 60%;
+    //width: 60%;
+  }
+
+  .experience-icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   .project-imageContainer img {
@@ -151,6 +161,10 @@
             margin-top: 4px;
         }
 
+    }
+
+   .position-detail {
+        margin-left: 5px;
     }
 
     .landmark {
@@ -248,11 +262,12 @@
 
   .tecnologia-text, .herramienta-text {
     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubun-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubuntu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-seriftu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-serif;
+    font-size: 14px;
   }
 
   .tecnologia-icon, .herramienta-icon {
-    font-size: 3em;
-    margin: 2px;
+    font-size: 2.3em;
+    margin: 5px;
   }
 
   .description-text {
@@ -395,6 +410,18 @@
         }
     } 
 
+    .experience-icons {
+        flex-wrap: wrap;
+    }
+
+    .tecnologias-herramientas {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
   }
 
   @media screen and (max-width: 590px){
@@ -418,6 +445,9 @@
     .project-details {
       width: auto;
       font-size: 14px;
+    }
+
+    .herramienta-text{
     }
 
     .tecnologia-text, .herramienta-text{
@@ -446,6 +476,12 @@
             margin-left: 20px;
         }
     } 
+
+    .portafolio-experience-title{
+        h2{
+            text-align: center;
+        }
+    }
 
   }
 
