@@ -8,9 +8,10 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HeaderComponent } from './components/header/header.component';
 import { ProfileComponent } from './components/profile/profile.component';
+import { JobExperiencesComponent } from './components/job-experiences/job-experiences.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, ProfileComponent],
+  declarations: [AppComponent, HeaderComponent, ProfileComponent, JobExperiencesComponent],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
   bootstrap: [AppComponent],

@@ -1,0 +1,473 @@
+
+  
+  h1, 
+  h2,
+  h3,
+  h4,
+  h5,
+  h6{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+    /* font-style: italic; */
+  }
+  
+  h1 {
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: -.2px;
+    color: white;
+    margin: 0;
+    /* margin: 100px 150px 70px 30px; */
+    /* text-transform: uppercase; */
+    /* text-decoration: dashed; */
+    z-index: 2;
+  }
+
+  h1 strong {
+    color: rgb(49, 175, 180);
+  }
+
+  h2 {
+    /* color: rgb(49,175, 180); */
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+
+  .portfolio {
+    /* background: #fafafa; */
+    background-color: grey;
+    padding: 10px;
+    /* background: red; */
+  }
+  
+  .project {
+    /* border-top: 10px solid red;
+    border-right: 10px solid green;
+    border-left: 10px solid orange;
+    border-bottom: 10px solid pink; */
+    /* color: blue; */
+    /* border-top-color: red;
+    border-top-width: 15px;
+    border-top-style: solid; */
+    border: 5px solid gray;
+    border-radius: 10px;
+    /* border-top-left-radius: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; */
+    /* margin: 10px; */
+    margin-bottom: 15px;
+    /* margin-right
+    margin-left 
+    margin-top */
+    padding: 35px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .project-course,
+  .project-date,
+  .project-url {
+    margin: 10px 0;
+  }
+
+  .project-description {
+    font-size: 20px;
+  }
+
+  .project strong {
+    font-family: 'Fjalla One', sans-serif;
+  }
+
+  /* .project-date {
+    margin: 10px 0;
+  } */
+  
+  .project-title {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .project-details {
+    width: 40%;
+  }
+  
+  .project-imageContainer {
+    width: 60%;
+  }
+
+  .project-imageContainer img {
+    max-width: 100%;
+  }
+  
+  ol,
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  figure {
+    margin: 0 0 10px 0;
+  }
+
+  .container-job {
+   /*  border: 1px solid red;  */
+    max-width: 1000px;
+    /* width: 100%; */
+    flex: 1;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+  }
+
+  .timeline-head {
+    margin-bottom: 12px;
+  }
+
+  .experience-container.list-container {
+   padding: 10px 0;
+  }
+
+  ol li .timeline-head{
+    display: flex;
+    text-decoration: none;
+    color: black;
+  }
+
+  .experience-container .list-container figure {
+    min-width: 60px;
+    flex: initial;
+  }
+
+  .experience-container .list-container .timeline, .experience-container .list-container figure>img {
+    display: block;
+    width: 48px;
+    height: 48px; 
+    margin-top: 4px;
+  }
+
+  .empresa{
+    line-height: 1.5;
+  }
+
+  .large-semibold{
+    font-weight: 600;
+  }
+
+  .medium {
+    font-size: 1em;
+  }
+
+  .experience-container .list-container .timeline {
+    background-image: none;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    margin-top: 0;
+  }
+
+  .experience-container .list-container .timeline {
+    display: block;
+    width: 48px;
+    height: 48px;
+    /* margin-top: 4px; */
+    margin-right: 12px;
+  }
+
+  .role-container {
+    display: flex;
+    position: relative;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubuntu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-serif;
+  }
+
+  .experience-container dl {
+    padding-bottom: 12px;
+  }
+
+  dl {
+    display: block;
+    margin-block-start: .3em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+
+  .experience-container dd {
+    margin-right: 5px;
+  }
+
+  .experience-container .landmark {
+    position: relative;
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:#d8d8d8;
+  }
+
+  .experience-container .landmark-container {
+    display: flex;
+    height: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .experience-container .timeline.path::before {
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: 24px;
+    width: 1px;
+    height: 100%;
+    background: #d8d8d8;
+  }
+
+  .tecnologias-herramientas{
+    margin: 20px;
+  }
+
+  .medium-semibold {
+    font-size: 1em;
+    font-weight: 500;
+  }
+
+  .medium.time-period{
+    font-size: .9em;
+  }
+
+  dd {
+    display: block;
+    margin-inline-start: 0;
+  }
+
+  .small-light {
+    font-size: .8em;
+    font-weight: 500;
+    color: rgba(0,0,0,0.6);
+  }
+
+  .experience-container .entity-description{
+    font-size: .9em;
+  }
+
+  .tecnologia-text, .herramienta-text {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubun-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubuntu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-seriftu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-serif;
+  }
+
+  .tecnologia-icon, .herramienta-icon {
+    font-size: 3em;
+    margin: 2px;
+  }
+
+  .description-text {
+    display: block;
+  }
+
+  .description.medium {
+    margin-top: 1em; 
+  }
+
+  .experience-roles-container {
+    margin-right: 10em;
+  }
+  /* END section experience*/
+
+
+  /* Evitar sombreado azul al dar click*/
+  a { 
+    -webkit-tap-highlight-color: rgba(0,0,0,0); 
+  }
+
+  h6 a{
+    text-decoration: none;
+    color: black;
+    cursor: default;
+  }
+
+  .portafolio-experience-title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+    h2{
+        font-family: "Fira Sans", sans-serif;
+        font-weight: 600;
+        font-size: 2rem;
+        color: black;
+        margin-bottom: 10px;
+        text-transform: capitalize;
+    }
+;
+  }
+
+
+  /* Desktop first que empieces desde el MQ más grande*/
+
+  /* ultra panorámica - una medida máx estandar */ 
+  @media screen and (max-width: 3440px){
+
+  }
+
+  /* ultra panorámica */
+  @media screen and (max-width: 2560px){
+    
+    h1 {
+      font-size: 2em; 
+    }
+
+    .portfolio{
+      /* padding: 0; */
+    }
+
+    .container-job {
+      padding: 0 1em;
+    }
+  }
+
+  @media screen and (max-width: 1919px){
+
+  }  
+
+  @media screen and (max-width: 1023px){
+ 
+  } 
+  
+  @media screen and (min-width: 768px) and (max-width: 970px){
+
+  }  
+
+  @media screen and (max-width: 767px){
+
+    h2 {
+      font-size: 1.2em;
+      margin: .5em 0;
+    }
+
+    .project {
+      display: block;
+    }
+
+    .project-imageContainer {
+      width: auto;
+      text-align: center;
+    }
+
+    .project-details {
+      width: auto;
+      /* font-size: 16px; */
+      transition: 0.55s;
+    }
+
+    .project-course, .project-date, .project-url {
+      margin: .3em 0;
+    }
+
+    .project-title {
+      font-size: 1.5em;
+      margin-bottom: .3em;
+    }
+
+    .project-url {
+      font-size: 1em;
+    }
+
+    .project-course {
+      font-size: .7em;
+    }
+
+    .project-date {
+      font-size: 1em;
+    }
+
+    .project-description {
+      font-size: 1em;
+    }
+
+    .experience-container dd {
+      margin-right: 10px;
+    }
+
+  }
+
+  @media screen and (max-width: 540px){
+
+  }
+
+  @media screen and (max-width: 480px){
+    h1 {
+      font-size: 1.5em;
+    }
+
+    .project-details {
+      width: auto;
+      font-size: 14px;
+    }
+
+    .tecnologia-text, .herramienta-text{
+      font-size: .8em;
+    }
+
+    .tecnologia-icon, .herramienta-icon {
+      font-size: 2em;
+    }
+
+    .experience-container dd {
+      margin-right: 5px;
+      transition: 0.55s;
+    }
+
+    .experience-roles-container {
+      margin-right: 2em;
+    }
+
+  }
+
+  @media screen and (max-width: 320px){
+
+    h1 {
+      font-size: 1.2em;
+      /* background: rgb(0, 0, 0,.5); */
+    }
+
+    .portfolio{
+      padding: 0 0;
+    }
+
+    .medium-semibold {
+      font-size: .8em;
+    }
+    
+    .medium.time-period {
+      font-size: .7em;
+    }
+
+    .small-light {
+      font-size: .7em;
+    }
+    
+    .medium.entity-description {
+      font-size: .8em;
+    }
+
+  }
+
+
+  @media screen and (max-width: 320px) {
+ 
+  }
