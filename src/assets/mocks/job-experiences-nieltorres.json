@@ -1,0 +1,205 @@
+[
+  {
+    "logoCompany": "everis",
+    "nameCompany": "Everis",
+    "durationCompany": "3 años y 10 meses",
+    "jobRolesCompany": [
+      {
+        "nameRoleCompany": "Scrum Master | Technical Lead Developer",
+        "dateIniRolCompany": "abr. 2020",
+        "dateEndRolCompany": "actualidad",
+        "durationdRolCompany": "1 año",
+        "locationdRolCompany": "Parque empresarial La Finca, Pozuelo de Alarcón, Madrid",
+        "titleDescriptionRolCompany": "Scrum Master | Technical Lead Developer - Hybrid Mobile App con Angular JS y Ionic 1",
+        "descriptionRolCompany": [
+          "Actividades:",
+          "• Líder de equipo de desarrollo de hasta 15 personas en el e-care APP MiOrange",
+          "• Orientar al equipo en la calidad del código con uso de test unitarios - Karma/Jazmine",
+          "• Desarrollo y mantenimiento con Angular JS, Ionic 1, Cordova",
+          "• Análisis de la calidad del código con SonarQube",
+          "• Integración continua con jenkins",
+          "• Actualización de apps y notificación tipo PUSH con IBM Worklight/Mobilefirst",
+          "• Desarrollo de evolutivos mediante metodología Scrum.",
+          "• Generación de paquetes binarios con Cordova, XCode, Android Studio",
+          "• Distribución de APK/IPA con AppCenter",
+          "• Gestión de equipo",
+          "• IDE: Visual Studio Code"
+        ]
+      },
+      {
+        "nameRoleCompany": "Solutions Analyst | Mobile App Developer",
+        "dateIniRolCompany": "feb. 2019",
+        "dateEndRolCompany": "abr. 2020",
+        "durationdRolCompany": "1 año y 3 meses",
+        "locationdRolCompany": "Parque empresarial La Finca, Pozuelo de Alarcón, Madrid",
+        "titleDescriptionRolCompany": "Analista/Desarrollador - Hybrid Mobile App con Angular 5 y Ionic 3",
+        "descriptionRolCompany": [
+          "Actividades:",
+          "• Desarrollos de nuevos evolutivos en el e-care APP MiJazztel",
+          "• Desarrollos con Angular 5, Ionic 3, Cordova, HTML5, CCS3/SASS, Typescript - Consumo de API REST y uso de Callbacks, Promesas, Observables",
+          "• Test unitarios y cobertura del código con Karma/Jazmine",
+          "• Análisis de la calidad del código con SonarQube",
+          "• Integración continua con jenkins",
+          "Actualización de apps y notificación tipo PUSH con IBM Worklight/Mobilefirst",
+          "• Desarrollo de evolutivos mediante metodología Scrum",
+          "• Puesta en marcha de las mejoras implementadas",
+          "• Generación de paquetes binarios con Cordova, XCode, Android Studio",
+          "• Gestión de equipo de desarrollo",
+          "• IDE: Visual Studio Code"
+        ]
+      },
+      {
+        "nameRoleCompany": "Solutions Assistant | Developer PHP",
+        "dateIniRolCompany": "jun. 2017",
+        "dateEndRolCompany": "feb. 2019",
+        "durationdRolCompany": "1 año y 9 meses",
+        "locationdRolCompany": "Camino de la Fuente de la Mora, 1, Madrid",
+        "titleDescriptionRolCompany": "",
+        "descriptionRolCompany": [
+          "Desarrollo/Mantenimiento de aplicaciones web con Framework Symfony PHP, HTML, CSS, Javascript, MySQL y metodología de trabajo Agile. Dichas aplicaciones estaban dirigidas a distribuidores y puntos de venta de la empresa Orange."
+        ]
+      }
+    ],
+    "tecnologies": "Angular 5 | Ionic 3 | JavaScript ES6 | HTML 5 | CSS || SASS | Cordova | Android | iOS",
+    "tecnologiesIcons": [
+      "icon-angular tecnologia-icon",
+      "icon-ionic tecnologia-icon",
+      "icon-javascript tecnologia-icon",
+      "icon-html5 tecnologia-icon",
+      "icon-css3 tecnologia-icon",
+      "icon-sass tecnologia-icon",
+      "icon-apachecordova tecnologia-icon",
+      "icon-android herramienta-icon",
+      "icon-appleinc herramienta-icon"
+    ],
+    "tools": "Visual Studio Code | Android Studio | Xcode | Git | SonarQube | Jenkins | npm",
+    "toolsIcons": [
+      "icon-visualstudio herramienta-icon",
+      "icon-xcode herramienta-icon",
+      "icon-android1 herramienta-icon",
+      "icon-git tecnologia-icon",
+      "icon-sonarqube herramienta-icon",
+      "icon-jenkins herramienta-icon",
+      "icon-npm tecnologia-icon"
+    ]
+  },
+  {
+    "logoCompany": "serem",
+    "nameCompany": "Serem",
+    "durationCompany": "10 meses",
+    "jobRolesCompany": [
+      {
+        "nameRoleCompany": "Developer PHP",
+        "dateIniRolCompany": "sept. 2016",
+        "dateEndRolCompany": "jun. 2017",
+        "durationdRolCompany": "10 meses",
+        "locationdRolCompany": "Madrid y alrededores, España",
+        "titleDescriptionRolCompany": "Desarrollo y mantenimiento de aplicaciones web PHP con metodología de trabajo Agile. Dichas aplicaciones estaban dirigidas a distribuidores y puntos de venta de la empresa Orange.",
+        "descriptionRolCompany": [
+          "Tecnologías usadas en diversos proyectos :",
+          "• Metodología de trabajo Scrum",
+          "• Symfony Framework con patrón MVC",
+          "• Control de versiones con GIT y SVN",
+          "• PHP, SQL, JavaScript (Ajax y Jquery)",
+          "• Despliegue de entornos locales/pre-producción con Vagrant",
+          "• Sistema gestor de bbdd en diferentes aplicaciones: MySQL, Oracle, PostgreSQL, SQL Server"
+        ]
+      }
+    ],
+    "tecnologies": "PHP | SQL| JavaScript | HTML 5 | CSS | Git | vagrant | Linux",
+    "tecnologiesIcons": [
+      "icon-php tecnologia-icon",
+      "icon-database tecnologia-icon",
+      "icon-javascript tecnologia-icon",
+      "icon-html5 tecnologia-icon",
+      "icon-css3 tecnologia-icon",
+      "icon-git tecnologia-icon",
+      "icon-vagrant tecnologia-icon",
+      "icon-tux tecnologia-icon"
+    ],
+    "tools": "MySQL | Postgresql | Oracle DB | PHPStorm | SonarQube | Jenkins | Apache",
+    "toolsIcons": [
+      "icon-mysql herramienta-icon",
+      "icon-postgresql herramienta-icon",
+      "icon-oracle herramienta-icon",
+      "icon-intellijidea herramienta-icon",
+      "icon-sonarqube herramienta-icon",
+      "icon-jenkins herramienta-icon",
+      "icon-apache herramienta-icon"
+    ]
+  },
+  {
+    "logoCompany": "okn",
+    "nameCompany": "OKN",
+    "durationCompany": "1 año y 4 meses",
+    "jobRolesCompany": [
+      {
+        "nameRoleCompany": "Developer PHP - Consultoría IT Open Knowledge Network-Bizpills",
+        "dateIniRolCompany": "mar. 2012",
+        "dateEndRolCompany": "jun. 2013",
+        "durationdRolCompany": "1 año y 4 meses",
+        "locationdRolCompany": "Madrid y alrededores, España",
+        "titleDescriptionRolCompany": "Mantenimiento y resolución de incidencias de las aplicaciones web con metodología de trabajo Agile",
+        "descriptionRolCompany": [
+          "Tecnologías usadas en diversos proyectos :",
+          "• Metodología de trabajo Scrum",
+          "• Control de versiones: Git",
+          "• PHP con MySQL y como patrón de arquitectura MVC",
+          "• Plataforma: Unix, Windows",
+          "• Desarrollo de scripts de automatización en Unix y Windows",
+          "• Debugging con Firebug"
+        ]
+      }
+    ],
+    "tecnologies": "PHP | JavaScript | SQL | HTML 5 | CSS | Git | Linux",
+    "tecnologiesIcons": [
+      "icon-php tecnologia-icon",
+      "icon-javascript tecnologia-icon",
+      "icon-database tecnologia-icon",
+      "icon-html5 tecnologia-icon",
+      "icon-css3 tecnologia-icon",
+      "icon-git tecnologia-icon",
+      "icon-tux tecnologia-icon"
+    ],
+    "tools": "MySQL | Eclipse | XAMPP | Apache",
+    "toolsIcons": [
+      "icon-mysql herramienta-icon",
+      "icon-eclipseide herramienta-icon",
+      "icon-apache herramienta-icon"
+    ]
+  },
+  {
+    "logoCompany": "coremain",
+    "nameCompany": "Coremain",
+    "durationCompany": "3 meses",
+    "jobRolesCompany": [
+      {
+        "nameRoleCompany": "Becario | Prácticas FP",
+        "dateIniRolCompany": "sept. 2008",
+        "dateEndRolCompany": "dic. 2008",
+        "durationdRolCompany": "3 meses",
+        "locationdRolCompany": "Madrid y alrededores, España",
+        "titleDescriptionRolCompany": "Prácticas FP de grado superior en Coremain S.L.",
+        "descriptionRolCompany": [
+          "Tecnologías usadas en diversos proyectos :",
+          "• Soporte y mantenimiento web con PHP con base de datos mysql, aplicaciones web con HTML, CSS y Javascript",
+          "• Control de versiones: Git",
+          "• Plataforma: Linux"
+        ]
+      }
+    ],
+    "tecnologies": "PHP | JavaScript | Git | SQL | Linux",
+    "tecnologiesIcons": [
+      "icon-php tecnologia-icon",
+      "icon-javascript tecnologia-icon",
+      "icon-database tecnologia-icon",
+      "icon-git tecnologia-icon",
+      "icon-tux tecnologia-icon"
+    ],
+    "tools": "MySQL | XAMPP | Apache",
+    "toolsIcons": [
+      "icon-mysql herramienta-icon",
+      "icon-apache herramienta-icon"
+    ]
+  }
+]
