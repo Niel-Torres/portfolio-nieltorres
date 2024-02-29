@@ -13,4 +13,4 @@ import { JobExperienceCompanyComponent } from './job-experience-company/job-expe
   ],
   exports: [JobExperienceCompanyComponent]
 })
-export class JobExperiencesModule { }
+export class JobsExperienceModule { }

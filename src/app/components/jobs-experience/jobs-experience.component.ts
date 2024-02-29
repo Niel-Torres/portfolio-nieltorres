@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-job-experiences',
-  templateUrl: './job-experiences.component.html',
-  styleUrls: ['./job-experiences.component.scss'],
+  templateUrl: './jobs-experience.component.html',
+  styleUrls: ['./jobs-experience.component.scss'],
 })
 export class JobExperiencesComponent  implements OnInit {
 

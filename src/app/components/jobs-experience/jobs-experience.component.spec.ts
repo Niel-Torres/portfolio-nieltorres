@@ -1,7 +1,7 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { JobExperiencesComponent } from './job-experiences.component';
+import { JobExperiencesComponent } from './jobs-experience.component';
 
 describe('JobExperiencesComponent', () => {
   let component: JobExperiencesComponent;
