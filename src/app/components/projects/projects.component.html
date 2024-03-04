@@ -65,6 +65,36 @@
           </div>
         </ion-card-content>
       </ion-card>
+
+      <ion-card (mouseenter)="mostrarTexto()" (mouseleave)="ocultarTexto()">
+        <ion-img src="assets/images/projects/dispel-1.jpeg"></ion-img>
+        <ion-card-content [hidden]="!mostrar">
+          <div class="card-content-project">
+            <p class="card-content-project-title">Web | Aplicación web para empresa de publicidad</p>
+            <p class="card-content-project-subtitle">Aplicación web construída con wordpress</p>
+          </div>
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card (mouseenter)="mostrarTexto()" (mouseleave)="ocultarTexto()">
+        <ion-img src="assets/images/projects/pokemon.png"></ion-img>
+        <ion-card-content [hidden]="!mostrar">
+          <div class="card-content-project">
+            <p class="card-content-project-title">Web | Aplicación web enfocado a pokemón GO </p>
+            <p class="card-content-project-subtitle">Aplicación web construída con Angular JS</p>
+          </div>
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card (mouseenter)="mostrarTexto()" (mouseleave)="ocultarTexto()">
+        <ion-img src="assets/images/projects/nieltorres.png"></ion-img>
+        <ion-card-content [hidden]="!mostrar">
+          <div class="card-content-project">
+            <p class="card-content-project-title">Web | Portafolio web</p>
+            <p class="card-content-project-subtitle">Aplicaciones web construída con Ionic, Angular y Capacitor</p>
+          </div>
+        </ion-card-content>
+      </ion-card>
       
       
     </div>

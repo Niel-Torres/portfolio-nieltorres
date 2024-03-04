@@ -41,8 +41,8 @@
             //display: grid;
         
             ion-img {
-                width: 500px;
-                height: 324px;
+                width: 300px;
+                height: 300px;
             }
         
             display: flex;
@@ -59,6 +59,7 @@
 
 ion-card {
     position: relative;
+    border-radius: 0px;
 
     -webkit-margin-start: 0px !important; 
     margin-inline-start: 0px !important;
@@ -144,6 +145,15 @@ ion-card:hover ion-card-content {
     
             }
           }
+    }
+
+    ion-card {
+        border-radius: 20px;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px !important;
+        margin-top: 0px !important;
+        margin-bottom: 15px !important;
+        filter: drop-shadow(0 0 0.75rem #AC3CA8);
     }
 
 }

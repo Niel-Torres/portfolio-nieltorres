@@ -1,5 +1,12 @@
-import { Component, OnInit, ViewChild, ElementRef} from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 import { JobExperiencesService } from 'src/app/services/jobExperiences/job-experiences.service';
+
+
+interface Elemento {
+  id: number;
+  nombre: string;
+}
+
 
 @Component({
   selector: 'app-job-experience-company',
@@ -8,29 +15,16 @@ import { JobExperiencesService } from 'src/app/services/jobExperiences/job-exper
 })
 export class JobExperienceCompanyComponent  implements OnInit {
 
-  showDetailJobExperience: boolean = false;
-  iconName: string = 'chevron-down-circle-outline';
   jobsExperiences: any;
+  elementsJobsExperienceDetailVisible = new Map<number, boolean>();
+  elementsIconsVisible = new Map<number, boolean>();
 
   constructor(
     private jobExperiencesService: JobExperiencesService
-  ) { 
-   
-  }
+  ) { }
 
   ngOnInit() {
     this.getJobsExperiences()
-  }
-
-  showJobExperience(id: any) {
-    console.log(id);
-    
-    document.getElementById(id)?.classList.toggle('aaaaaaaaaaaaaa');
-
-
-    this.showDetailJobExperience = !this.showDetailJobExperience;
-  
-    this.iconName = (this.iconName === 'chevron-down-circle-outline') ? 'chevron-up-circle-outline' : 'chevron-down-circle-outline';
   }
 
   getJobsExperiences(){
@@ -41,6 +35,25 @@ export class JobExperienceCompanyComponent  implements OnInit {
           console.log(this.jobsExperiences);
         }
       )
+  }
+
+  toggleDetalle(id: number) {
+    this.elementsJobsExperienceDetailVisible.set(id, !this.elementsJobsExperienceDetailVisible.get(id));
+    this.elementsIconsVisible.set(id, !this.elementsIconsVisible.get(id));
+
+  }
+
+  isVisible(id: number): boolean {
+    return this.elementsJobsExperienceDetailVisible.get(id) || false;
+  }
+
+  getIconName(id: number){ 
+    let iconName = 'chevron-down-circle-outline';
+    if(this.elementsIconsVisible.get(id)){
+      iconName = 'chevron-up-circle-outline';
+
+    }
+    return iconName; 
   }
 
 }

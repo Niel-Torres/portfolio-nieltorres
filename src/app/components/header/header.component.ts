@@ -37,4 +37,8 @@ export class HeaderComponent  implements OnInit {
 
   toggleDarkMode() {}
 
+  goToBlog() {
+    window.open("https://medium.com/@nieltorres_", "_blank");
+  }
+
 }

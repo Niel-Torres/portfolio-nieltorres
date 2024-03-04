@@ -11,20 +11,24 @@
   
       <div class="header_links" *ngIf="showModeWeb">
         <ion-buttons slot="end">
-          <ion-button routerLink="/home" routerDirection="root">
-            <ion-label>Home</ion-label>
+          <ion-button routerLink="/Inicio" routerDirection="root">
+            <ion-label>Inicio</ion-label>
           </ion-button>
     
           <ion-button routerLink="/projects" routerDirection="root">
-            <ion-label>Projects</ion-label>
+            <ion-label>Proyectos</ion-label>
           </ion-button>
     
           <ion-button routerLink="/about" routerDirection="root">
-            <ion-label>About</ion-label>
+            <ion-label>Sobre mi</ion-label>
+          </ion-button>
+
+          <ion-button (click)="goToBlog()" routerDirection="root">
+            <ion-label>Blog</ion-label>
           </ion-button>
     
           <ion-button routerLink="/contact" routerDirection="root">
-            <ion-label>Contact</ion-label>
+            <ion-label>Contacto</ion-label>
           </ion-button>
     
           <ion-button (click)="toggleDarkMode()">

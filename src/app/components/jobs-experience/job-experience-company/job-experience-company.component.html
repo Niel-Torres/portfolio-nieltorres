@@ -30,13 +30,13 @@
                       </dd>
                       <dd class="small-light entity-location"><span>{{jobRol.locationdRolCompany}}</span></dd>
                     </div>
-                    <div (click)="showJobExperience(jobRol.idJobRole)" class="iconShowMore">
+                    <div  class="iconShowMore" (click)="toggleDetalle(jobRol.idJobRole)">
                       <dd>
-                        <ion-icon slot="icon-only" [name]="iconName"></ion-icon>
+                        <ion-icon slot="icon-only" [name]="getIconName(jobRol.idJobRole)"></ion-icon>
                       </dd>
                     </div>
                   </div>
-                  <dd class="medium entity-description" *ngIf="showDetailJobExperience" id="{{jobRol.idJobRole}}" #{{jobRol.idJobRole}}>
+                  <dd class="medium entity-description" *ngIf="isVisible(jobRol.idJobRole)" id="{{jobRol.idJobRole}}" #{{jobRol.idJobRole}}>
                     <div class="description medium">
                       <span class="description-text">{{jobRol.titleDescriptionRolCompany}}</span>
                       <br>
