@@ -1,10 +1,12 @@
 [
   {
+    "id": "job-4",
     "logoCompany": "everis",
     "nameCompany": "Everis",
     "durationCompany": "3 años y 10 meses",
     "jobRolesCompany": [
       {
+        "idJobRole": "job-4-1",
         "nameRoleCompany": "Scrum Master | Technical Lead Developer",
         "dateIniRolCompany": "abr. 2020",
         "dateEndRolCompany": "actualidad",
@@ -27,6 +29,7 @@
         ]
       },
       {
+        "idJobRole": "job-4-2",
         "nameRoleCompany": "Solutions Analyst | Mobile App Developer",
         "dateIniRolCompany": "feb. 2019",
         "dateEndRolCompany": "abr. 2020",
@@ -49,6 +52,7 @@
         ]
       },
       {
+        "idJobRole": "job-4-3",
         "nameRoleCompany": "Solutions Assistant | Developer PHP",
         "dateIniRolCompany": "jun. 2017",
         "dateEndRolCompany": "feb. 2019",
@@ -84,11 +88,13 @@
     ]
   },
   {
+    "id": "job-3",
     "logoCompany": "serem",
     "nameCompany": "Serem",
     "durationCompany": "10 meses",
     "jobRolesCompany": [
       {
+        "idJobRole": "job-3-1",
         "nameRoleCompany": "Developer PHP",
         "dateIniRolCompany": "sept. 2016",
         "dateEndRolCompany": "jun. 2017",
@@ -129,11 +135,13 @@
     ]
   },
   {
+    "id": "job-2",
     "logoCompany": "okn",
     "nameCompany": "OKN",
     "durationCompany": "1 año y 4 meses",
     "jobRolesCompany": [
       {
+        "idJobRole": "job-2-1",
         "nameRoleCompany": "Developer PHP - Consultoría IT Open Knowledge Network-Bizpills",
         "dateIniRolCompany": "mar. 2012",
         "dateEndRolCompany": "jun. 2013",
@@ -169,11 +177,13 @@
     ]
   },
   {
+    "id": "job-1",
     "logoCompany": "coremain",
     "nameCompany": "Coremain",
     "durationCompany": "3 meses",
     "jobRolesCompany": [
       {
+        "idJobRole": "job-1-1",
         "nameRoleCompany": "Becario | Prácticas FP",
         "dateIniRolCompany": "sept. 2008",
         "dateEndRolCompany": "dic. 2008",

@@ -1,8 +1,8 @@
 
 .header {
     padding: 25px 0px 25px 0px;
-    background-color: antiquewhite;
-
+    background: radial-gradient(#433243, black);
+    filter: drop-shadow(0 0 3.75rem #AC3CA8);
     display: flex;
     justify-content: space-between;    
     align-items: center;
@@ -20,6 +20,7 @@
     height: inherit;
     flex-wrap: inherit;
     max-width: 1000px;
+    color: white;
 }
 
 .header_links {

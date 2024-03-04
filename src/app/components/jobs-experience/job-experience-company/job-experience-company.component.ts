@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef} from '@angular/core';
 import { JobExperiencesService } from 'src/app/services/jobExperiences/job-experiences.service';
 
 @Component({
@@ -22,8 +22,14 @@ export class JobExperienceCompanyComponent  implements OnInit {
     this.getJobsExperiences()
   }
 
-  showJobExperience() {
+  showJobExperience(id: any) {
+    console.log(id);
+    
+    document.getElementById(id)?.classList.toggle('aaaaaaaaaaaaaa');
+
+
     this.showDetailJobExperience = !this.showDetailJobExperience;
+  
     this.iconName = (this.iconName === 'chevron-down-circle-outline') ? 'chevron-up-circle-outline' : 'chevron-down-circle-outline';
   }
 

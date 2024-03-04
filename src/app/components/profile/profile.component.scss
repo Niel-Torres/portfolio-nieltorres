@@ -15,7 +15,7 @@
     align-items: inherit;
     height: inherit;
     flex-wrap: inherit;
-    max-width: 1000px;
+    //max-width: 1000px;
 }
 
 .profile-container {
@@ -25,27 +25,32 @@
     align-content: center;
     justify-content: center;
     align-items: center;
-   // height: 600px;
-    background-color: aquamarine;
+    //height: 600px;
+    //background-color: aquamarine;
+    background: radial-gradient(#464545, black);
     padding: 25px 0 25px 0;
+    padding-bottom: 10%;
+    padding-top: 10%;
 }
 
 .left-section {
     
     padding-bottom: 30px;
+    padding-right: 50px;
 
     .name {
         font-family: Poppins,sans-serif;
         font-weight: 700;
         margin-bottom: 10px;
         font-size: 4.768rem;
+        color: white;
     }
 
     .role {
         font-size: 1.6rem;
         font-weight: 200;
         font-family: 'Fira Sans', sans-serif;
-
+        color: white;
     }
 }
 
@@ -70,7 +75,9 @@
 }
 
 .circulo {
-    background-color: darksalmon;
+    //background-color: darksalmon;
+    background: radial-gradient(#AC3CA8, black);
+    filter: drop-shadow(0 0 3.75rem #AC3CA8);
     flex-direction: column;
     align-items: center;
     box-shadow: 3px 5px 4px rgba(0,0,0,.25);
@@ -122,6 +129,7 @@
             display: grid;
             justify-content: center;
             justify-items: center;
+            padding-right: 0px;
 
             .name {
                 font-size: 3.9rem;
