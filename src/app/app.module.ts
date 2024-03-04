@@ -12,9 +12,10 @@ import { HeaderComponent } from './components/header/header.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { JobExperiencesComponent } from './components/jobs-experience/jobs-experience.component';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { ContactUbicationComponent } from './components/contact-ubication/contact-ubication.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, ProfileComponent, JobExperiencesComponent, ProjectsComponent],
+  declarations: [AppComponent, HeaderComponent, ProfileComponent, JobExperiencesComponent, ProjectsComponent, ContactUbicationComponent],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, HttpClientModule, JobsExperienceModule],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
   bootstrap: [AppComponent],

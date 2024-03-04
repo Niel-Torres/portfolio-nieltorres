@@ -129,5 +129,43 @@ ion-card:hover ion-card-content {
     
 }
 
+@media screen and (max-width: 385px){
+
+    .section-projects { 
+        .container-projects{
+
+            .projects {
+                //display: grid;
+            
+                ion-img {
+                    width: 350px;
+        
+                }
+    
+            }
+          }
+    }
+
+}
+
+@media screen and (max-width: 285px){
+
+    .section-projects { 
+        .container-projects{
+
+            .projects {
+                //display: grid;
+            
+                ion-img {
+                    width: 300px;
+        
+                }
+    
+            }
+          }
+    }
+
+}
+
 
 
