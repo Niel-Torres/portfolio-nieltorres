@@ -42,6 +42,7 @@
     //background: radial-gradient(#AC3CA8, black);
     background: radial-gradient(#493845, black);
     padding: 10px;
+    margin-bottom: -1px;
   }
   
   .project {
@@ -363,6 +364,7 @@
 
     .project {
       display: block;
+      padding-left: 0px;
     }
 
     .project-imageContainer {

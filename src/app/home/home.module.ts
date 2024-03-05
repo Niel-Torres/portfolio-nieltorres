@@ -6,14 +6,21 @@ import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
 
+import { JobsExperienceModule } from '../components/jobs-experience/jobs-experience.module';
+
+import { ComponentsModule } from '../components/components.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    HomePageRoutingModule
+    HomePageRoutingModule,
+    JobsExperienceModule,
+    ComponentsModule
   ],
-  declarations: [HomePage]
+  declarations: [
+    HomePage,
+  ]
 })
 export class HomePageModule {}

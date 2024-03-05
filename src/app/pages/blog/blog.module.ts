@@ -8,12 +8,15 @@ import { BlogPageRoutingModule } from './blog-routing.module';
 
 import { BlogPage } from './blog.page';
 
+import { ComponentsModule } from 'src/app/components/components.module';
+
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    BlogPageRoutingModule
+    BlogPageRoutingModule,
+    ComponentsModule
   ],
   declarations: [BlogPage]
 })
