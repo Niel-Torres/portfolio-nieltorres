@@ -1,0 +1,19 @@
+.menu-links {
+    --background: radial-gradient(#433243, black);
+    --filter: drop-shadow(0 0 3.75rem #AC3CA8);
+
+    ion-buttons {
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        justify-content: center;
+        align-items: flex-start;
+
+        ion-label{
+            color: white;
+        }
+    }
+
+
+}
+

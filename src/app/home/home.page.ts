@@ -17,7 +17,6 @@ export class HomePage implements OnInit{
   ) {}
 
   ngOnInit() {
-
     this.menuService.menuOpen.subscribe(
       (isOpen: boolean) => {
         this.isMenuOpen = isOpen;
@@ -32,7 +31,6 @@ export class HomePage implements OnInit{
         }
       }
     )
-
   }
 
 }

@@ -1,6 +1,10 @@
   <ion-content>
-    <div class="page-complete">
+    <app-menu></app-menu>
+    <div class="page-complete" [ngClass]="hidden">
       <app-header></app-header>
+      <div>
+        Proyectos detalles
+      </div>
       <app-projects></app-projects>
       <app-contact-ubication></app-contact-ubication>
       <app-footer></app-footer>
