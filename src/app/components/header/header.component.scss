@@ -9,6 +9,13 @@
     flex-wrap: wrap;
     padding-right: 8%;
     padding-left: 8%;
+
+    ion-buttons {
+        ion-menu-button {
+            display: none;
+        }
+
+    }
 }
 
 .container {
@@ -41,5 +48,19 @@
     .header_links {
         display: none;
     }
+
+    .header {
+        padding-right: 15%;
+
+        ion-buttons {
+            ion-menu-button {
+                color: white;
+                display: initial;
+            }
+    
+        }
+    }
+
+
 }
 

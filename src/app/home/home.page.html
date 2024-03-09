@@ -1,6 +1,7 @@
 <ion-content>
     <ion-content>
-        <div class="page-complete">
+        <app-menu></app-menu>
+        <div class="page-complete" [ngClass]="hidden">
           <app-header></app-header>
           <app-profile></app-profile>
           <app-job-experiences></app-job-experiences>

@@ -25,3 +25,7 @@
 #container a {
   text-decoration: none;
 }
+
+.hidden {
+  contain: layout size style;
+}

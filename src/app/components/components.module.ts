@@ -4,6 +4,7 @@ import { IonicModule } from '@ionic/angular';
 
 import { JobsExperienceModule } from '../components/jobs-experience/jobs-experience.module';
 
+import { MenuComponent } from './menu/menu.component';
 import { HeaderComponent } from '../components/header/header.component';
 import { ProfileComponent } from '../components/profile/profile.component';
 import { JobExperiencesComponent } from '../components/jobs-experience/jobs-experience.component';
@@ -12,9 +13,9 @@ import { ContactUbicationComponent } from '../components/contact-ubication/conta
 import { FooterComponent } from '../components/footer/footer.component';
 import { RouterModule } from '@angular/router';
 
-
 @NgModule({
   declarations: [
+    MenuComponent,
     HeaderComponent,
     ProfileComponent,
     JobExperiencesComponent,
@@ -29,6 +30,7 @@ import { RouterModule } from '@angular/router';
     RouterModule
   ],
   exports: [
+    MenuComponent,
     HeaderComponent,
     ProfileComponent,
     JobExperiencesComponent,
