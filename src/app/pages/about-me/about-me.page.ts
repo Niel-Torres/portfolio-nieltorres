@@ -9,6 +9,8 @@ import { MenuService } from 'src/app/services/menu/menu.service';
 export class AboutMePage implements OnInit {
   isMenuOpen: boolean = false;
   hidden: string = "";
+  age: number = 35;
+  companyCurrent: string = "NTTDATA"
 
   constructor(
     private menuService: MenuService
