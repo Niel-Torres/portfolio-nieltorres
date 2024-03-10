@@ -1,5 +1,17 @@
+# Mi portfolio web
+Web personal
 
-ESTRUCTURA DE ESTE PROYECTO
+<strong>¡Hola Mundo!</strong> Soy Niel torres, desarrollador Front-End Web & Mobile. Aquí tenéis el código de mi portafolio, espero que os guste.
+
+💻Tecnologías utilizadas
+<ul>
+  <li>Ionic</li>
+  <li>Angular</li>
+  <li>Capacitor</li>
+</ul>  
+  
+
+💻Estructura de este proyecto
 
 src/
 |-- app/
@@ -19,3 +31,5 @@ src/
 |   |-- app.module.ts              // Capa de aplicación - Módulo raíz
 |-- assets/                         // Recursos estáticos (imágenes, JSON, etc.)
 |-- environments/                   // Configuraciones de entorno
+
+👨🏾‍💻<span>Proyecto realizado por Niel Torres para la web "https://www.nieltorres.com"<span>
