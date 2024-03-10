@@ -1,7 +1,7 @@
 # Mi portfolio web
 Web personal
 
-<strong>¡Hola Mundo!</strong> Soy Niel torres, desarrollador Front-End Web & Mobile. Aquí tenéis el código de mi portafolio, espero que os guste.
+<strong>¡Hola Mundo!</strong> Soy Niel torres, desarrollador Front-End Web & Mobile. Aquí tenéis el código de mi portfolio.
 
 ## 💻 Requirements
 
