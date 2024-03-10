@@ -1,31 +1,107 @@
 [
   {
+    "id": "job-5",
+    "logoCompany": "ntt",
+    "nameCompany": "NTT DATA",
+    "durationCompany": "2 años y 3 meses",
+    "jobRolesCompany": [
+      {
+        "idJobRole": "job-5-1",
+        "nameRoleCompany": "Jefe de proyecto",
+        "dateIniRolCompany": "may. 2023",
+        "dateEndRolCompany": "actualidad",
+        "durationdRolCompany": "11 meses",
+        "locationdRolCompany": "Madrid",
+        "titleDescriptionRolCompany": "Responsable de proyectos de movilidad de sector público de la Junta Andalucía",
+        "descriptionRolCompany": [
+          "Funciones principales:",
+          "• Responsable de la gestión económica de los proyectos.",
+          "• Coordinación con cliente y responsable de garantizar la ejecución de las diferentes fases de los proyectos.",
+          "• Apoyo a cliente en crear nuevas líneas de trabajo en desarrollo y arquitectura.",
+          "• Coordinación y gestión de equipos de desarrollo en apps híbridas con Angular | Ionic | Capacitor",
+          "• Coordinación y gestión de equipos de desarrollo en apps nativas con Android (Kotlin | Jetpack Compose) & iOS (Swift | Swift UI)"
+        ]
+      },
+      {
+        "idJobRole": "job-5-2",
+        "nameRoleCompany": "Lead Mobile Developer",
+        "dateIniRolCompany": "sep. 2022",
+        "dateEndRolCompany": "abr. 2023",
+        "durationdRolCompany": "8 meses",
+        "locationdRolCompany": "Remoto, Madrid",
+        "titleDescriptionRolCompany": "Soporte y coordinación como lead engineer a equipos de desarrollo mobile",
+        "descriptionRolCompany": [
+          "Funciones principales:",
+          "• Análisis y coordinación con equipo de desarrolo para la migración tecnológica de las apps.",
+          "• Soporte y formación a líderes de equipos de desarrollo.",
+          "• Garantizar e implementar la puesta en marcha de las apps.",
+          "• Gestión de equipos."
+        ]
+      },
+      {
+        "idJobRole": "job-5-3",
+        "nameRoleCompany": "FrontEnd Architect Mobile",
+        "dateIniRolCompany": "dic. 2021",
+        "dateEndRolCompany": "ago. 2022",
+        "durationdRolCompany": "9 meses",
+        "locationdRolCompany": "Bruselas, Bélgica",
+        "titleDescriptionRolCompany": "Proyecto internacional en inglés",
+        "descriptionRolCompany": [
+          "Funciones principales:",
+          "• Análisis e implentación de la estructura y flujos principales de una app e-care con Angular, Ionic y Capacitor basado en webcomponents.",
+          "• Crear documentación técnica de arquitectura para equipo de desarrollo.",
+          "• Coordinación y análisis de los flujos de la aplicación junto con backend.",
+          "• Coordinación y soporte al equipo de desarrollo."
+        ]
+      }
+    ],
+    "tecnologies": "Angular | Ionic | Capacitor | JavaScript | HTML | CSS || SASS | Kotlin | Swift UI",
+    "tecnologiesIcons": [
+      "icon-angular tecnologia-icon",
+      "icon-ionic tecnologia-icon",
+      "devicon-capacitor-plain colored tecnologia-icon",
+      "icon-javascript tecnologia-icon",
+      "icon-html5 tecnologia-icon",
+      "icon-css3 tecnologia-icon",
+      "icon-sass tecnologia-icon",
+      "devicon-kotlin-plain colored herramienta-icon",
+      "devicon-swift-plain colored herramienta-icon"
+    ],
+    "tools": "Visual Studio Code | Android Studio | Xcode | Git | SonarQube | Jenkins | npm",
+    "toolsIcons": [
+      "icon-visualstudio herramienta-icon",
+      "icon-xcode herramienta-icon",
+      "icon-android1 herramienta-icon",
+      "icon-git tecnologia-icon",
+      "icon-sonarqube herramienta-icon",
+      "icon-jenkins herramienta-icon",
+      "icon-npm tecnologia-icon"
+    ]
+  },
+  {
     "id": "job-4",
     "logoCompany": "everis",
     "nameCompany": "Everis",
-    "durationCompany": "3 años y 10 meses",
+    "durationCompany": "4 años y 6 meses",
     "jobRolesCompany": [
       {
         "idJobRole": "job-4-1",
-        "nameRoleCompany": "Scrum Master | Technical Lead Developer",
+        "nameRoleCompany": "Scrum Master | Lead Mobile Developer",
         "dateIniRolCompany": "abr. 2020",
-        "dateEndRolCompany": "actualidad",
-        "durationdRolCompany": "1 año",
+        "dateEndRolCompany": "dic. 2021",
+        "durationdRolCompany": "1 año y 9 meses",
         "locationdRolCompany": "Parque empresarial La Finca, Pozuelo de Alarcón, Madrid",
-        "titleDescriptionRolCompany": "Scrum Master | Technical Lead Developer - Hybrid Mobile App con Angular JS y Ionic 1",
+        "titleDescriptionRolCompany": "Scrum Master | Lead Mobile Developer con Angular JS, Ionic y Cordova",
         "descriptionRolCompany": [
-          "Actividades:",
-          "• Líder de equipo de desarrollo de hasta 15 personas en el e-care APP MiOrange",
-          "• Orientar al equipo en la calidad del código con uso de test unitarios - Karma/Jazmine",
-          "• Desarrollo y mantenimiento con Angular JS, Ionic 1, Cordova",
-          "• Análisis de la calidad del código con SonarQube",
-          "• Integración continua con jenkins",
-          "• Actualización de apps y notificación tipo PUSH con IBM Worklight/Mobilefirst",
-          "• Desarrollo de evolutivos mediante metodología Scrum.",
-          "• Generación de paquetes binarios con Cordova, XCode, Android Studio",
-          "• Distribución de APK/IPA con AppCenter",
-          "• Gestión de equipo",
-          "• IDE: Visual Studio Code"
+          "Funciones principales:",
+          "• Líder técnico y responsable del equipo de desarrollo mobile en el e-care APP MiOrange.",
+          "• Garantizar la puesta en marcha en producción (App Store & Goole Play) de las nuevas funcionalidades.",
+          "• Orientar al equipo en la calidad del código",
+          "• Test unitarios con Karma/Jazmine, anális del código con SonarQube e integración continua con jenkins.",
+          "• Actualización de apps y notificación tipo PUSH con IBM Worklight/Mobilefirst.",
+          "• Distribución de apk/ipa con AppCenter y TestFlight",
+          "• Rol de Scrum Master  y uso de herramientas como Jira | Confluence.",
+          "• Gestión y coordinación de equipo de desarrollo."
         ]
       },
       {
@@ -35,20 +111,16 @@
         "dateEndRolCompany": "abr. 2020",
         "durationdRolCompany": "1 año y 3 meses",
         "locationdRolCompany": "Parque empresarial La Finca, Pozuelo de Alarcón, Madrid",
-        "titleDescriptionRolCompany": "Analista/Desarrollador - Hybrid Mobile App con Angular 5 y Ionic 3",
+        "titleDescriptionRolCompany": "Analista | Desarrollador mobile con Angular 5 y Ionic 3",
         "descriptionRolCompany": [
           "Actividades:",
-          "• Desarrollos de nuevos evolutivos en el e-care APP MiJazztel",
-          "• Desarrollos con Angular 5, Ionic 3, Cordova, HTML5, CCS3/SASS, Typescript - Consumo de API REST y uso de Callbacks, Promesas, Observables",
-          "• Test unitarios y cobertura del código con Karma/Jazmine",
-          "• Análisis de la calidad del código con SonarQube",
-          "• Integración continua con jenkins",
-          "Actualización de apps y notificación tipo PUSH con IBM Worklight/Mobilefirst",
-          "• Desarrollo de evolutivos mediante metodología Scrum",
-          "• Puesta en marcha de las mejoras implementadas",
-          "• Generación de paquetes binarios con Cordova, XCode, Android Studio",
-          "• Gestión de equipo de desarrollo",
-          "• IDE: Visual Studio Code"
+          "• Desarrollo de nuevos evolutivos en el e-care APP MiJazztel.",
+          "• Desarrollo con Angular 5, Ionic 3, Cordova.",
+          "• Test unitarios con Karma/Jazmine, anális del código con SonarQube e integración continua con jenkins.",
+          "• Actualización de apps y notificación tipo PUSH con IBM Worklight/Mobilefirst",
+          "• Distribución de apk/ipa con AppCenter y TestFlight.",
+          "• Metodología Scrum  y uso de herramientas como Jira | Confluence.",
+          "• Gestión y coordinación de equipo de desarrollo."
         ]
       },
       {
@@ -64,17 +136,15 @@
         ]
       }
     ],
-    "tecnologies": "Angular 5 | Ionic 3 | JavaScript ES6 | HTML 5 | CSS || SASS | Cordova | Android | iOS",
+    "tecnologies": "Angular | Ionic | Cordova | JavaScript | HTML | CSS || SASS",
     "tecnologiesIcons": [
       "icon-angular tecnologia-icon",
       "icon-ionic tecnologia-icon",
+      "icon-apachecordova tecnologia-icon",
       "icon-javascript tecnologia-icon",
       "icon-html5 tecnologia-icon",
       "icon-css3 tecnologia-icon",
-      "icon-sass tecnologia-icon",
-      "icon-apachecordova tecnologia-icon",
-      "icon-android herramienta-icon",
-      "icon-appleinc herramienta-icon"
+      "icon-sass tecnologia-icon"
     ],
     "tools": "Visual Studio Code | Android Studio | Xcode | Git | SonarQube | Jenkins | npm",
     "toolsIcons": [
@@ -102,9 +172,9 @@
         "locationdRolCompany": "Madrid y alrededores, España",
         "titleDescriptionRolCompany": "Desarrollo y mantenimiento de aplicaciones web PHP con metodología de trabajo Agile. Dichas aplicaciones estaban dirigidas a distribuidores y puntos de venta de la empresa Orange.",
         "descriptionRolCompany": [
-          "Tecnologías usadas en diversos proyectos :",
+          "Funciones principales | Tecnologías utilizadas:",
           "• Metodología de trabajo Scrum",
-          "• Symfony Framework con patrón MVC",
+          "• Framework PHP Symfony con patrón MVC",
           "• Control de versiones con GIT y SVN",
           "• PHP, SQL, JavaScript (Ajax y Jquery)",
           "• Despliegue de entornos locales/pre-producción con Vagrant",
@@ -149,13 +219,11 @@
         "locationdRolCompany": "Madrid y alrededores, España",
         "titleDescriptionRolCompany": "Mantenimiento y resolución de incidencias de las aplicaciones web con metodología de trabajo Agile",
         "descriptionRolCompany": [
-          "Tecnologías usadas en diversos proyectos :",
+          "Funciones principales | Tecnologías utilizadas:",
           "• Metodología de trabajo Scrum",
-          "• Control de versiones: Git",
-          "• PHP con MySQL y como patrón de arquitectura MVC",
-          "• Plataforma: Unix, Windows",
-          "• Desarrollo de scripts de automatización en Unix y Windows",
-          "• Debugging con Firebug"
+          "• Control de versiones con Git",
+          "• Lenguage PHP vanilla con MySQL y como patrón de arquitectura MVC",
+          "• Desarrollo de scripts de automatización"
         ]
       }
     ],
@@ -191,10 +259,10 @@
         "locationdRolCompany": "Madrid y alrededores, España",
         "titleDescriptionRolCompany": "Prácticas FP de grado superior en Coremain S.L.",
         "descriptionRolCompany": [
-          "Tecnologías usadas en diversos proyectos :",
+          "Funciones principales | Tecnologías utilizadas:",
           "• Soporte y mantenimiento web con PHP con base de datos mysql, aplicaciones web con HTML, CSS y Javascript",
-          "• Control de versiones: Git",
-          "• Plataforma: Linux"
+          "• Control de versiones con git",
+          "• Linux"
         ]
       }
     ],
