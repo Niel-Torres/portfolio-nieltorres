@@ -6,13 +6,14 @@
 
   <div class="container">
     <div class="header_logo">
-      <img src="assets/images/favicon.png" height="50" alt="Logo de http://nieltorres.com" />
+      <img src="assets/icon/favicon.png" height="50" alt="Logo de http://nieltorres.com" />
     </div>
 
     <div class="header_links" *ngIf="showModeWeb">
       <ion-buttons slot="end">
         <ion-button routerLink="/Inicio" routerDirection="root">
-          <ion-label>Inicio</ion-label>
+          <ion-icon name="home-outline"></ion-icon>
+          <ion-label class="labelLink">Inicio</ion-label>
         </ion-button>
   
         <ion-button routerLink="/proyectos" routerDirection="root">
@@ -23,17 +24,21 @@
           <ion-label>Sobre mi</ion-label>
         </ion-button>
 
-        <ion-button routerLink="/blog" routerDirection="root">
+        <ion-button (click)="goToBlog()">
           <ion-label>Blog</ion-label>
         </ion-button>
   
-        <ion-button routerLink="/contacto" routerDirection="root">
+        <!-- <ion-button routerLink="/contacto" routerDirection="root">
           <ion-label>Contacto</ion-label>
+        </ion-button> -->
+
+        <ion-button (click)="goToLink()">
+          <ion-label>Mi CV</ion-label>
         </ion-button>
   
-        <ion-button (click)="toggleDarkMode()">
+        <!-- <ion-button (click)="toggleDarkMode()">
           <ion-icon name="moon"></ion-icon>
-        </ion-button>
+        </ion-button> -->
       </ion-buttons>
     </div>
   </div>

@@ -2,12 +2,12 @@
   contain: layout size style;
 }
 
-.contentPageProjects { 
+.contentPage { 
   
 }
 
 @media screen and (max-width: 767px) {
-  .contentPageProjects {
+  .contentPage {
     background: radial-gradient(#493845, black);
     //filter: drop-shadow(0 0 3.75rem #AC3CA8);
     padding-top: 25%;
@@ -16,13 +16,13 @@
 
 
 @media screen and (max-width: 425px) {
-  .contentPageProjects {
+  .contentPage {
     padding-top: 35%;
   }
 }
 
 @media screen and (max-width: 280px) {
-  .contentPageProjects {
+  .contentPage {
     padding-top: 40%;
   }
 }

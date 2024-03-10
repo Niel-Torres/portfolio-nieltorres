@@ -1,58 +1,55 @@
-<ion-menu contentId="main-content"(ionWillOpen)="menuWillOpen()" (ionWillClose)="menuWillClose()">
+<ion-menu contentId="main-content" (ionWillOpen)="menuWillOpen()" (ionWillClose)="menuWillClose()">
   <ion-header>
-    <ion-toolbar>
-      <ion-title>-Menu-</ion-title>
-    </ion-toolbar>
+    <div class="menu_logo_toolbar">
+      <div class="menu_logo_div">
+        <img src="assets/icon/favicon.png" height="50" alt="Logo de http://nieltorres.com" />
+      </div>
+    </div>
   </ion-header>
   <ion-content class="ion-padding menu-links">
-
     <ion-buttons>
-      <ion-chip>
-        <ion-avatar>
-          <img alt="Proyectos" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
-        </ion-avatar>
+      <ion-menu-toggle>
         <ion-button routerLink="/portfolio" routerDirection="root">
+          <ion-icon name="home-outline"></ion-icon>
           <ion-label>Inicio</ion-label>
         </ion-button>
-      </ion-chip>
-      <ion-chip>
-        <ion-avatar>
-          <img alt="Proyectos" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
-        </ion-avatar>
+      </ion-menu-toggle>
+
+      <ion-menu-toggle>
         <ion-button routerLink="/proyectos" routerDirection="root">
+          <ion-icon name="code-slash-outline"></ion-icon>
           <ion-label>Proyectos</ion-label>
         </ion-button>
-      </ion-chip>
+      </ion-menu-toggle>
 
-      <ion-chip>
-        <ion-avatar>
-          <img alt="Proyectos" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
-        </ion-avatar>
+      <ion-menu-toggle>
         <ion-button routerLink="/sobre-mi" routerDirection="root">
+          <ion-icon name="id-card-outline"></ion-icon>
           <ion-label>Sobre mi</ion-label>
         </ion-button>
-      </ion-chip>
+      </ion-menu-toggle>
 
 
-      <ion-chip>
-        <ion-avatar>
-          <img alt="Proyectos" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
-        </ion-avatar>
-        <ion-button routerLink="/blog" routerDirection="root">
+      <ion-menu-toggle>
+        <ion-button (click)="goToBlog()">
+          <ion-icon name="book-outline"></ion-icon>
           <ion-label>Blog</ion-label>
         </ion-button>
-      </ion-chip>
+      </ion-menu-toggle>
 
-      <ion-chip>
-        <ion-avatar>
-          <img alt="Proyectos" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
-        </ion-avatar>
+      <!-- <ion-menu-toggle>
         <ion-button routerLink="/contacto" routerDirection="root">
+          <ion-icon name="call-outline"></ion-icon>
           <ion-label>Contacto</ion-label>
         </ion-button>
-      </ion-chip>
+      </ion-menu-toggle> -->
 
-
+      <ion-menu-toggle>
+        <ion-button (click)="goToLink()">
+          <ion-icon name="newspaper-outline"></ion-icon>
+          <ion-label>Mi CV</ion-label>
+        </ion-button>
+      </ion-menu-toggle>
 
     </ion-buttons>
   </ion-content>
