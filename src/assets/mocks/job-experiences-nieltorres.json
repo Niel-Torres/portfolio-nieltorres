@@ -1,0 +1,283 @@
+[
+  {
+    "id": "job-5",
+    "logoCompany": "ntt",
+    "nameCompany": "NTT DATA",
+    "durationCompany": "2 años y 3 meses",
+    "jobRolesCompany": [
+      {
+        "idJobRole": "job-5-1",
+        "nameRoleCompany": "Jefe de proyecto",
+        "dateIniRolCompany": "may. 2023",
+        "dateEndRolCompany": "actualidad",
+        "durationdRolCompany": "11 meses",
+        "locationdRolCompany": "Madrid",
+        "titleDescriptionRolCompany": "Responsable de proyectos de movilidad de sector público de la Junta Andalucía",
+        "descriptionRolCompany": [
+          "Funciones principales:",
+          "• Responsable de la gestión económica de los proyectos.",
+          "• Coordinación con cliente y responsable de garantizar la ejecución de las diferentes fases de los proyectos.",
+          "• Apoyo a cliente en crear nuevas líneas de trabajo en desarrollo y arquitectura.",
+          "• Coordinación y gestión de equipos de desarrollo en apps híbridas con Angular | Ionic | Capacitor",
+          "• Coordinación y gestión de equipos de desarrollo en apps nativas con Android (Kotlin | Jetpack Compose) & iOS (Swift | Swift UI)"
+        ]
+      },
+      {
+        "idJobRole": "job-5-2",
+        "nameRoleCompany": "Lead Mobile Developer",
+        "dateIniRolCompany": "sep. 2022",
+        "dateEndRolCompany": "abr. 2023",
+        "durationdRolCompany": "8 meses",
+        "locationdRolCompany": "Remoto, Madrid",
+        "titleDescriptionRolCompany": "Soporte y coordinación como lead engineer a equipos de desarrollo mobile",
+        "descriptionRolCompany": [
+          "Funciones principales:",
+          "• Análisis y coordinación con equipo de desarrolo para la migración tecnológica de las apps.",
+          "• Soporte y formación a líderes de equipos de desarrollo.",
+          "• Garantizar e implementar la puesta en marcha de las apps.",
+          "• Gestión de equipos."
+        ]
+      },
+      {
+        "idJobRole": "job-5-3",
+        "nameRoleCompany": "FrontEnd Architect Mobile",
+        "dateIniRolCompany": "dic. 2021",
+        "dateEndRolCompany": "ago. 2022",
+        "durationdRolCompany": "9 meses",
+        "locationdRolCompany": "Bruselas, Bélgica",
+        "titleDescriptionRolCompany": "Proyecto internacional en inglés",
+        "descriptionRolCompany": [
+          "Funciones principales:",
+          "• Análisis e implentación de la estructura y flujos principales de una app e-care con Angular, Ionic y Capacitor basado en webcomponents.",
+          "• Crear documentación técnica de arquitectura para equipo de desarrollo.",
+          "• Coordinación y análisis de los flujos de la aplicación junto con backend.",
+          "• Coordinación y soporte al equipo de desarrollo."
+        ]
+      }
+    ],
+    "tecnologies": "Angular | Ionic | Capacitor | JavaScript | HTML | CSS || SASS | Kotlin | Swift UI",
+    "tecnologiesIcons": [
+      "icon-angular tecnologia-icon",
+      "icon-ionic tecnologia-icon",
+      "devicon-capacitor-plain colored tecnologia-icon",
+      "icon-javascript tecnologia-icon",
+      "icon-html5 tecnologia-icon",
+      "icon-css3 tecnologia-icon",
+      "icon-sass tecnologia-icon",
+      "devicon-kotlin-plain colored herramienta-icon",
+      "devicon-swift-plain colored herramienta-icon"
+    ],
+    "tools": "Visual Studio Code | Android Studio | Xcode | Git | SonarQube | Jenkins | npm",
+    "toolsIcons": [
+      "icon-visualstudio herramienta-icon",
+      "icon-xcode herramienta-icon",
+      "icon-android1 herramienta-icon",
+      "icon-git tecnologia-icon",
+      "icon-sonarqube herramienta-icon",
+      "icon-jenkins herramienta-icon",
+      "icon-npm tecnologia-icon"
+    ]
+  },
+  {
+    "id": "job-4",
+    "logoCompany": "everis",
+    "nameCompany": "Everis",
+    "durationCompany": "4 años y 6 meses",
+    "jobRolesCompany": [
+      {
+        "idJobRole": "job-4-1",
+        "nameRoleCompany": "Scrum Master | Lead Mobile Developer",
+        "dateIniRolCompany": "abr. 2020",
+        "dateEndRolCompany": "dic. 2021",
+        "durationdRolCompany": "1 año y 9 meses",
+        "locationdRolCompany": "Parque empresarial La Finca, Pozuelo de Alarcón, Madrid",
+        "titleDescriptionRolCompany": "Scrum Master | Lead Mobile Developer con Angular JS, Ionic y Cordova",
+        "descriptionRolCompany": [
+          "Funciones principales:",
+          "• Líder técnico y responsable del equipo de desarrollo mobile en el e-care APP MiOrange.",
+          "• Garantizar la puesta en marcha en producción (App Store & Goole Play) de las nuevas funcionalidades.",
+          "• Orientar al equipo en la calidad del código",
+          "• Test unitarios con Karma/Jazmine, anális del código con SonarQube e integración continua con jenkins.",
+          "• Actualización de apps y notificación tipo PUSH con IBM Worklight/Mobilefirst.",
+          "• Distribución de apk/ipa con AppCenter y TestFlight",
+          "• Rol de Scrum Master  y uso de herramientas como Jira | Confluence.",
+          "• Gestión y coordinación de equipo de desarrollo."
+        ]
+      },
+      {
+        "idJobRole": "job-4-2",
+        "nameRoleCompany": "Solutions Analyst | Mobile App Developer",
+        "dateIniRolCompany": "feb. 2019",
+        "dateEndRolCompany": "abr. 2020",
+        "durationdRolCompany": "1 año y 3 meses",
+        "locationdRolCompany": "Parque empresarial La Finca, Pozuelo de Alarcón, Madrid",
+        "titleDescriptionRolCompany": "Analista | Desarrollador mobile con Angular 5 y Ionic 3",
+        "descriptionRolCompany": [
+          "Actividades:",
+          "• Desarrollo de nuevos evolutivos en el e-care APP MiJazztel.",
+          "• Desarrollo con Angular 5, Ionic 3, Cordova.",
+          "• Test unitarios con Karma/Jazmine, anális del código con SonarQube e integración continua con jenkins.",
+          "• Actualización de apps y notificación tipo PUSH con IBM Worklight/Mobilefirst",
+          "• Distribución de apk/ipa con AppCenter y TestFlight.",
+          "• Metodología Scrum  y uso de herramientas como Jira | Confluence.",
+          "• Gestión y coordinación de equipo de desarrollo."
+        ]
+      },
+      {
+        "idJobRole": "job-4-3",
+        "nameRoleCompany": "Solutions Assistant | Developer PHP",
+        "dateIniRolCompany": "jun. 2017",
+        "dateEndRolCompany": "feb. 2019",
+        "durationdRolCompany": "1 año y 9 meses",
+        "locationdRolCompany": "Camino de la Fuente de la Mora, 1, Madrid",
+        "titleDescriptionRolCompany": "",
+        "descriptionRolCompany": [
+          "Desarrollo/Mantenimiento de aplicaciones web con Framework Symfony PHP, HTML, CSS, Javascript, MySQL y metodología de trabajo Agile. Dichas aplicaciones estaban dirigidas a distribuidores y puntos de venta de la empresa Orange."
+        ]
+      }
+    ],
+    "tecnologies": "Angular | Ionic | Cordova | JavaScript | HTML | CSS || SASS",
+    "tecnologiesIcons": [
+      "icon-angular tecnologia-icon",
+      "icon-ionic tecnologia-icon",
+      "icon-apachecordova tecnologia-icon",
+      "icon-javascript tecnologia-icon",
+      "icon-html5 tecnologia-icon",
+      "icon-css3 tecnologia-icon",
+      "icon-sass tecnologia-icon"
+    ],
+    "tools": "Visual Studio Code | Android Studio | Xcode | Git | SonarQube | Jenkins | npm",
+    "toolsIcons": [
+      "icon-visualstudio herramienta-icon",
+      "icon-xcode herramienta-icon",
+      "icon-android1 herramienta-icon",
+      "icon-git tecnologia-icon",
+      "icon-sonarqube herramienta-icon",
+      "icon-jenkins herramienta-icon",
+      "icon-npm tecnologia-icon"
+    ]
+  },
+  {
+    "id": "job-3",
+    "logoCompany": "serem",
+    "nameCompany": "Serem",
+    "durationCompany": "10 meses",
+    "jobRolesCompany": [
+      {
+        "idJobRole": "job-3-1",
+        "nameRoleCompany": "Developer PHP",
+        "dateIniRolCompany": "sept. 2016",
+        "dateEndRolCompany": "jun. 2017",
+        "durationdRolCompany": "10 meses",
+        "locationdRolCompany": "Madrid y alrededores, España",
+        "titleDescriptionRolCompany": "Desarrollo y mantenimiento de aplicaciones web PHP con metodología de trabajo Agile. Dichas aplicaciones estaban dirigidas a distribuidores y puntos de venta de la empresa Orange.",
+        "descriptionRolCompany": [
+          "Funciones principales | Tecnologías utilizadas:",
+          "• Metodología de trabajo Scrum",
+          "• Framework PHP Symfony con patrón MVC",
+          "• Control de versiones con GIT y SVN",
+          "• PHP, SQL, JavaScript (Ajax y Jquery)",
+          "• Despliegue de entornos locales/pre-producción con Vagrant",
+          "• Sistema gestor de bbdd en diferentes aplicaciones: MySQL, Oracle, PostgreSQL, SQL Server"
+        ]
+      }
+    ],
+    "tecnologies": "PHP | SQL| JavaScript | HTML 5 | CSS | Git | vagrant | Linux",
+    "tecnologiesIcons": [
+      "icon-php tecnologia-icon",
+      "icon-database tecnologia-icon",
+      "icon-javascript tecnologia-icon",
+      "icon-html5 tecnologia-icon",
+      "icon-css3 tecnologia-icon",
+      "icon-git tecnologia-icon",
+      "icon-vagrant tecnologia-icon",
+      "icon-tux tecnologia-icon"
+    ],
+    "tools": "MySQL | Postgresql | Oracle DB | PHPStorm | SonarQube | Jenkins | Apache",
+    "toolsIcons": [
+      "icon-mysql herramienta-icon",
+      "icon-postgresql herramienta-icon",
+      "icon-oracle herramienta-icon",
+      "icon-intellijidea herramienta-icon",
+      "icon-sonarqube herramienta-icon",
+      "icon-jenkins herramienta-icon",
+      "icon-apache herramienta-icon"
+    ]
+  },
+  {
+    "id": "job-2",
+    "logoCompany": "okn",
+    "nameCompany": "OKN",
+    "durationCompany": "1 año y 4 meses",
+    "jobRolesCompany": [
+      {
+        "idJobRole": "job-2-1",
+        "nameRoleCompany": "Developer PHP - Consultoría IT Open Knowledge Network-Bizpills",
+        "dateIniRolCompany": "mar. 2012",
+        "dateEndRolCompany": "jun. 2013",
+        "durationdRolCompany": "1 año y 4 meses",
+        "locationdRolCompany": "Madrid y alrededores, España",
+        "titleDescriptionRolCompany": "Mantenimiento y resolución de incidencias de las aplicaciones web con metodología de trabajo Agile",
+        "descriptionRolCompany": [
+          "Funciones principales | Tecnologías utilizadas:",
+          "• Metodología de trabajo Scrum",
+          "• Control de versiones con Git",
+          "• Lenguage PHP vanilla con MySQL y como patrón de arquitectura MVC",
+          "• Desarrollo de scripts de automatización"
+        ]
+      }
+    ],
+    "tecnologies": "PHP | JavaScript | SQL | HTML 5 | CSS | Git | Linux",
+    "tecnologiesIcons": [
+      "icon-php tecnologia-icon",
+      "icon-javascript tecnologia-icon",
+      "icon-database tecnologia-icon",
+      "icon-html5 tecnologia-icon",
+      "icon-css3 tecnologia-icon",
+      "icon-git tecnologia-icon",
+      "icon-tux tecnologia-icon"
+    ],
+    "tools": "MySQL | Eclipse | XAMPP | Apache",
+    "toolsIcons": [
+      "icon-mysql herramienta-icon",
+      "icon-eclipseide herramienta-icon",
+      "icon-apache herramienta-icon"
+    ]
+  },
+  {
+    "id": "job-1",
+    "logoCompany": "coremain",
+    "nameCompany": "Coremain",
+    "durationCompany": "3 meses",
+    "jobRolesCompany": [
+      {
+        "idJobRole": "job-1-1",
+        "nameRoleCompany": "Becario | Prácticas FP",
+        "dateIniRolCompany": "sept. 2008",
+        "dateEndRolCompany": "dic. 2008",
+        "durationdRolCompany": "3 meses",
+        "locationdRolCompany": "Madrid y alrededores, España",
+        "titleDescriptionRolCompany": "Prácticas FP de grado superior en Coremain S.L.",
+        "descriptionRolCompany": [
+          "Funciones principales | Tecnologías utilizadas:",
+          "• Soporte y mantenimiento web con PHP con base de datos mysql, aplicaciones web con HTML, CSS y Javascript",
+          "• Control de versiones con git",
+          "• Linux"
+        ]
+      }
+    ],
+    "tecnologies": "PHP | JavaScript | Git | SQL | Linux",
+    "tecnologiesIcons": [
+      "icon-php tecnologia-icon",
+      "icon-javascript tecnologia-icon",
+      "icon-database tecnologia-icon",
+      "icon-git tecnologia-icon",
+      "icon-tux tecnologia-icon"
+    ],
+    "tools": "MySQL | XAMPP | Apache",
+    "toolsIcons": [
+      "icon-mysql herramienta-icon",
+      "icon-apache herramienta-icon"
+    ]
+  }
+]

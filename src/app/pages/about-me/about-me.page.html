@@ -1,0 +1,34 @@
+<ion-content>
+  <app-menu></app-menu>
+  <div class="page-complete" [ngClass]="hidden">
+    <app-header></app-header>
+    <div class="contentPage">
+      <div class="content">
+        <div>
+          <h1 class="title">Sobre Mi</h1>
+          <p>
+            Mi nombre es <strong>Niel Torres</strong>, tengo {{age}} años. 
+            Cuento con más de <strong>7 años de experiencia</strong> en tecnología, la gran parte enfocado a <strong>desarrollo Frontend</strong> (web y mobile). 
+            Actualmente trabajo como <strong>Service Manager en la empresa {{companyCurrent}}</strong>. Mi objetivo como profesional 
+            es continuar desarrollando soluciones tecnológicas, que generen un gran impacto en la sociedad, aplicando mis 
+            conocimientos en tecnología y desarrollo de software.
+          </p>
+        </div>
+        <div class="aboutMe-profile">
+          <div>
+            <div class="">
+              <div class="image-profile">
+                <ion-img src="assets/images/ntorres.png" alt="Niel Profile Picture"></ion-img>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+  
+    </div>
+    <app-contact-ubication></app-contact-ubication>
+    <app-footer></app-footer>
+   
+  </div>
+</ion-content>

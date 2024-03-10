@@ -1,0 +1,45 @@
+<div class="header" id="main-content">
+
+  <ion-buttons slot="start">
+    <ion-menu-button></ion-menu-button>
+  </ion-buttons>
+
+  <div class="container">
+    <div class="header_logo">
+      <img src="assets/icon/favicon.png" height="50" alt="Logo de http://nieltorres.com" />
+    </div>
+
+    <div class="header_links" *ngIf="showModeWeb">
+      <ion-buttons slot="end">
+        <ion-button routerLink="/Inicio" routerDirection="root">
+          <ion-icon name="home-outline"></ion-icon>
+          <ion-label class="labelLink">Inicio</ion-label>
+        </ion-button>
+  
+        <ion-button routerLink="/proyectos" routerDirection="root">
+          <ion-label>Proyectos</ion-label>
+        </ion-button>
+  
+        <ion-button routerLink="/sobre-mi" routerDirection="root">
+          <ion-label>Sobre mi</ion-label>
+        </ion-button>
+
+        <ion-button (click)="goToBlog()">
+          <ion-label>Blog</ion-label>
+        </ion-button>
+  
+        <!-- <ion-button routerLink="/contacto" routerDirection="root">
+          <ion-label>Contacto</ion-label>
+        </ion-button> -->
+
+        <ion-button (click)="goToLink()">
+          <ion-label>Mi CV</ion-label>
+        </ion-button>
+  
+        <!-- <ion-button (click)="toggleDarkMode()">
+          <ion-icon name="moon"></ion-icon>
+        </ion-button> -->
+      </ion-buttons>
+    </div>
+  </div>
+</div>

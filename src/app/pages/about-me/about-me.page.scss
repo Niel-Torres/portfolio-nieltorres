@@ -1,0 +1,105 @@
+.hidden {
+  contain: layout size style;
+}
+
+.aboutMe-profile {
+  padding-top: -5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
+  ion-img {
+    width: 400px;
+    height: auto;
+  }
+}
+
+.content {
+  max-width: 900px;
+  margin: 0px 8%;
+
+}
+
+.contentPage {
+  background: radial-gradient(#493845, black);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
+  background: radial-gradient(#493845, black);
+
+  .title {
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    font-size: 3.568rem;
+    color: white;
+  }
+
+  p {
+    font-size: 1.4rem;
+    font-weight: 200;
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .contentPage {
+    padding-top: 25%;
+
+    .title {
+      font-size: 2.568rem;
+    }
+  
+    p {
+      font-size: 1.2rem;
+    }
+  }
+
+  .aboutMe-profile {
+
+    ion-img {
+      width: 300px;
+    }
+  }
+}
+
+
+@media screen and (max-width: 425px) {
+  .contentPage {
+    padding-top: 35%;
+    .title {
+      font-size: 2.168rem;
+    }
+  
+    p {
+      font-size: 0.9rem;
+    }
+  }
+
+}
+
+@media screen and (max-width: 280px) {
+  .contentPage {
+    padding-top: 40%;
+    .title {
+      font-size: 2.068rem;
+    }
+  
+    p {
+      font-size: 0.8rem;
+    }
+  }
+
+  .aboutMe-profile {
+
+    ion-img {
+      width: 200px;
+    }
+  }
+}
