@@ -4,6 +4,7 @@
   "author": "Niel Torres",
   "homepage": "https://nieltorres.com",
   "scripts": {
+    "use:node": "nvm use",
     "start": "ionic serve",
     "prepare:global:nieltorres": "ionic build --prod -- --base-href https://nieltorres.com/",
     "deploy:github:branch:ghpages": "ionic build --prod -- --base-href https://niel-torres.github.io/portfolio-nieltorres/ && npx angular-cli-ghpages --branch=gh-pages --dir=www",

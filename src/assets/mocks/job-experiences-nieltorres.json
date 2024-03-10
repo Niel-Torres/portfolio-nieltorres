@@ -185,20 +185,20 @@
     "tecnologies": "PHP | SQL| JavaScript | HTML 5 | CSS | Git | vagrant | Linux",
     "tecnologiesIcons": [
       "icon-php tecnologia-icon",
-      "icon-database tecnologia-icon",
+      "devicon-azuresqldatabase-plain colored tecnologia-icon",
       "icon-javascript tecnologia-icon",
       "icon-html5 tecnologia-icon",
       "icon-css3 tecnologia-icon",
       "icon-git tecnologia-icon",
       "icon-vagrant tecnologia-icon",
-      "icon-tux tecnologia-icon"
+      "devicon-linux-plain colored tecnologia-icon"
     ],
     "tools": "MySQL | Postgresql | Oracle DB | PHPStorm | SonarQube | Jenkins | Apache",
     "toolsIcons": [
       "icon-mysql herramienta-icon",
       "icon-postgresql herramienta-icon",
       "icon-oracle herramienta-icon",
-      "icon-intellijidea herramienta-icon",
+      "devicon-intellij-plain colored herramienta-icon",
       "icon-sonarqube herramienta-icon",
       "icon-jenkins herramienta-icon",
       "icon-apache herramienta-icon"
@@ -231,11 +231,11 @@
     "tecnologiesIcons": [
       "icon-php tecnologia-icon",
       "icon-javascript tecnologia-icon",
-      "icon-database tecnologia-icon",
+      "devicon-azuresqldatabase-plain colored tecnologia-icon",
       "icon-html5 tecnologia-icon",
       "icon-css3 tecnologia-icon",
       "icon-git tecnologia-icon",
-      "icon-tux tecnologia-icon"
+      "devicon-linux-plain colored tecnologia-icon"
     ],
     "tools": "MySQL | Eclipse | XAMPP | Apache",
     "toolsIcons": [
@@ -270,9 +270,9 @@
     "tecnologiesIcons": [
       "icon-php tecnologia-icon",
       "icon-javascript tecnologia-icon",
-      "icon-database tecnologia-icon",
+      "devicon-azuresqldatabase-plain colored tecnologia-icon",
       "icon-git tecnologia-icon",
-      "icon-tux tecnologia-icon"
+      "devicon-linux-plain colored tecnologia-icon"
     ],
     "tools": "MySQL | XAMPP | Apache",
     "toolsIcons": [
