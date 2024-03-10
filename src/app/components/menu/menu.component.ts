@@ -31,7 +31,7 @@ export class MenuComponent implements OnInit {
   }
 
   goToLink() {
-    const URL = "https://drive.google.com/file/d/1nE0WyFfk9f4yfmvDsPvRtVI7xCNwnUcu/view?usp=sharing";
+    const URL = "https://drive.google.com/file/d/19vLHBEe3bmJ090fh-VjIBlSTMhnblBiG/view?usp=sharing";
     this.utilService.goToLink(URL, "_blank");
   }
 
