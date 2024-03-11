@@ -32,7 +32,7 @@ export class JobExperienceCompanyComponent  implements OnInit {
       .subscribe(
         data => {
           this.jobsExperiences = data;
-          console.log(this.jobsExperiences);
+          //console.log(this.jobsExperiences);
         }
       )
   }

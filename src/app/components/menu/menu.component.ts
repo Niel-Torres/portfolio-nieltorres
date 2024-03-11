@@ -19,13 +19,13 @@ export class MenuComponent implements OnInit {
 
 
   menuWillOpen() {
-    console.log('El menú está a punto de abrirse');
+    //console.log('El menú está a punto de abrirse');
     this.menuService.emitMenuOpen(true);
     // Coloca aquí el código que deseas ejecutar cuando el menú está a punto de abrirse
   }
 
   menuWillClose() {
-    console.log('El menú está a punto de cerrarse');
+    //console.log('El menú está a punto de cerrarse');
     this.menuService.emitMenuOpen(false);
     // Coloca aquí el código que deseas ejecutar cuando el menú está a punto de cerrarse
   }

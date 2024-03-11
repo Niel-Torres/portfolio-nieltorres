@@ -25,10 +25,10 @@ export class HeaderComponent implements OnInit {
     const logDeviceInfo = async () => {
       const info = ((await Device.getInfo()));
 
-      console.log(info.model)
+      //console.log(info.model)
 
       if (info.model === "iPhone") {
-        console.log("mobile")
+        //console.log("mobile")
         this.showModeWeb = false;
       }
     };

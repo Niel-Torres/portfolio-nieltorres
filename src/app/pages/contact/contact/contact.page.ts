@@ -19,11 +19,11 @@ export class ContactPage implements OnInit {
       (isOpen: boolean) => {
         this.isMenuOpen = isOpen;
         if(isOpen){
-          console.log('El menú está abierto');
+          //console.log('El menú está abierto');
           this.hidden = "hidden"
         }
         else {
-          console.log('El menú está cerrado');
+          //console.log('El menú está cerrado');
           this.hidden = ""
 
         }
