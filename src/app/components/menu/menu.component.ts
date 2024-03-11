@@ -1,7 +1,39 @@
 import { Component, OnInit } from '@angular/core';
 import { MenuService } from 'src/app/services/menu/menu.service';
 import { UtilsService } from 'src/app/services/utils/utils.service';
-UtilsService
+
+const linksMenu = [
+  {
+    name: 'Inicio',
+    link: '/portfolio',
+    icon: 'home-outline',
+    url: ''
+  },
+  {
+    name: 'Proyectos',
+    link: '/proyectos',
+    icon: 'code-slash-outline',
+    url: ''
+  },
+  {
+    name: 'Sobre mí',
+    link: '/sobre-mi',
+    icon: 'id-card-outline',
+    url: ''
+  },
+  {
+    name: 'Blog',
+    link: '',
+    icon: 'book-outline',
+    url: 'https://medium.com/@nieltorres_/list/mi-blog-e6f2e63bdc98'
+  },
+  {
+    name: 'Mi CV',
+    link: '',
+    icon: 'newspaper-outline',
+    url: 'https://drive.google.com/file/d/1gHlFJLNi30adF28GPxE9aaJeaMx1TQiu/view?usp=sharing'
+  }
+];
 
 @Component({
   selector: 'app-menu',
@@ -10,10 +42,14 @@ UtilsService
 })
 export class MenuComponent implements OnInit {
 
+  linksMenu = linksMenu;
+
+
   constructor(
     private menuService: MenuService,
     private utilService: UtilsService
-  ) { }
+  ) { 
+  }
 
   ngOnInit() { }
 
@@ -30,14 +66,8 @@ export class MenuComponent implements OnInit {
     // Coloca aquí el código que deseas ejecutar cuando el menú está a punto de cerrarse
   }
 
-  goToLink() {
-    const URL = "https://drive.google.com/file/d/19vLHBEe3bmJ090fh-VjIBlSTMhnblBiG/view?usp=sharing";
-    this.utilService.goToLink(URL, "_blank");
-  }
-
-  goToBlog() {
-    const URL = "https://medium.com/@nieltorres_/list/mi-blog-e6f2e63bdc98";
-    this.utilService.goToLink(URL, "_blank");
+  goToLink(url: string) {
+    this.utilService.goToLink(url, "_blank");
   }
 
 }

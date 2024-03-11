@@ -17,24 +17,28 @@
         justify-content: center;
         align-items: flex-start;
         margin-left: 5%;
-        
+
         ion-button {
             margin: 10px 0px;
         }
 
-        ion-label{
+        ion-label {
             color: white;
+            text-transform: capitalize;
+            font-size: 15px;
+            font-family: 'Fira Sans', sans-serif;
+            font-weight: 600;
         }
     }
 
 
 }
 
-.menu_logo_toolbar{
+.menu_logo_toolbar {
 
 
 
-    .menu_logo_div{
+    .menu_logo_div {
         display: flex;
         justify-content: center;
         background: radial-gradient(#433243, black);
@@ -46,4 +50,3 @@
 
     }
 }
-

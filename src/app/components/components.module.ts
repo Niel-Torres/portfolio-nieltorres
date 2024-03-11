@@ -3,6 +3,9 @@ import { CommonModule } from '@angular/common';
 import { IonicModule } from '@ionic/angular';
 
 import { JobsExperienceModule } from '../components/jobs-experience/jobs-experience.module';
+import { RouterModule } from '@angular/router';
+
+import { CapitalizarPipe } from '../pipes/capitalizar.pipe';
 
 import { MenuComponent } from './menu/menu.component';
 import { HeaderComponent } from '../components/header/header.component';
@@ -11,7 +14,6 @@ import { JobExperiencesComponent } from '../components/jobs-experience/jobs-expe
 import { ProjectsComponent } from '../components/projects/projects.component';
 import { ContactUbicationComponent } from '../components/contact-ubication/contact-ubication.component';
 import { FooterComponent } from '../components/footer/footer.component';
-import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,8 @@ import { RouterModule } from '@angular/router';
     JobExperiencesComponent,
     ProjectsComponent,
     ContactUbicationComponent,
-    FooterComponent
+    FooterComponent,
+    CapitalizarPipe
   ],
   imports: [
     CommonModule,
@@ -36,7 +39,8 @@ import { RouterModule } from '@angular/router';
     JobExperiencesComponent,
     ProjectsComponent,
     ContactUbicationComponent,
-    FooterComponent
+    FooterComponent,
+    CapitalizarPipe
   ]
 })
 export class ComponentsModule { }
