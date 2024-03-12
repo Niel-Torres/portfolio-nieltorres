@@ -25,9 +25,17 @@
                   <div class="job-experience">
                     <div class="job-experience_header">
                       <dt class="medium-semibold"><span>{{jobRol.nameRoleCompany}}</span></dt>
-                      <dd class="medium time-period">
-                        <span class="medium">{{jobRol.dateIniRolCompany}} - </span><span class="medium">{{jobRol.dateEndRolCompany}} • {{jobRol.durationdRolCompany}}</span>
+                      <dd>
+                        <span class="medium">{{jobRol.dateEndRolCompany}}</span>
                       </dd>
+                      <dd *ngIf="jobRol.idJobRole === 'job-5-1'; else jobOptional">
+                        <span class="medium">{{jobRol.dateIniRolCompany}} - </span><span class="medium">{{jobRol.dateEndRolCompany}} • {{monthsWorked + " meses"}}</span>
+                      </dd>
+                      <ng-template #jobOptional>
+                        <dd >
+                          <span class="medium">{{jobRol.dateIniRolCompany}} - </span><span class="medium">{{jobRol.dateEndRolCompany}} • {{jobRol.durationdRolCompany}}</span>
+                        </dd>
+                      </ng-template>
                       <dd class="small-light entity-location"><span>{{jobRol.locationdRolCompany}}</span></dd>
                     </div>
                     <div  class="iconShowMore" (click)="toggleDetalle(jobRol.idJobRole)">

@@ -9,18 +9,22 @@ import { MenuService } from 'src/app/services/menu/menu.service';
 export class AboutMePage implements OnInit {
   isMenuOpen: boolean = false;
   hidden: string = "";
-  age: number = 35;
   companyCurrent: string = "NTTDATA"
+  bornDate: Date = new Date('1988-05-25');
+  currentDate: Date = new Date();
+  myCurrentAge: number = 35;
 
   constructor(
     private menuService: MenuService
   ) { }
 
   ngOnInit() {
+    this.updateCurrentAge();
+
     this.menuService.menuOpen.subscribe(
       (isOpen: boolean) => {
         this.isMenuOpen = isOpen;
-        if(isOpen){
+        if (isOpen) {
           //console.log('El menú está abierto');
           this.hidden = "hidden"
         }
@@ -31,5 +35,10 @@ export class AboutMePage implements OnInit {
         }
       }
     )
+  }
+
+  updateCurrentAge() {
+    const diffCurrentDateBornDate = this.currentDate.getTime() - this.bornDate.getTime();
+    this.myCurrentAge = new Date(diffCurrentDateBornDate).getFullYear() - 1970;
   }
 }

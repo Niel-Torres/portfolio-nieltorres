@@ -19,12 +19,25 @@ export class JobExperienceCompanyComponent  implements OnInit {
   elementsJobsExperienceDetailVisible = new Map<number, boolean>();
   elementsIconsVisible = new Map<number, boolean>();
 
+  //TODO: Implementarlo con el API 
+  dateWorkStart: Date = new Date('2023-05-01');  
+  dateCurrent: Date = new Date(); 
+  monthsWorked: number = 0;
+
   constructor(
     private jobExperiencesService: JobExperiencesService
   ) { }
 
   ngOnInit() {
-    this.getJobsExperiences()
+    this.getJobsExperiences();
+    this.getMonthsWorked();
+  }
+
+  getMonthsWorked(){
+    let countMonths = 0;
+    const difMeses = (this.dateCurrent.getFullYear() - this.dateWorkStart.getFullYear()) * 12;
+    countMonths = this.dateCurrent.getMonth() - this.dateWorkStart.getMonth() + difMeses;
+    this.monthsWorked = countMonths+1;
   }
 
   getJobsExperiences(){
