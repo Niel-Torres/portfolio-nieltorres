@@ -16,22 +16,22 @@ export class HeaderComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    this.checkDevice();
+    //this.checkDevice();
   }
 
-  checkDevice() {
-    const logDeviceInfo = async () => {
-      const info = ((await Device.getInfo()));
-      //console.log(info.model)
-      if (info.model === "iPhone") {
-        //console.log("mobile")
-        this.showModeWeb = false;
-      }
-    };
+  // checkDevice() {
+  //   const logDeviceInfo = async () => {
+  //     const info = ((await Device.getInfo()));
+  //     console.log(info.model)
+  //     if (info.model === "iPhone") {
+  //       console.log("mobile")
+  //       this.showModeWeb = false;
+  //     }
+  //   };
 
-    logDeviceInfo();
+  //   logDeviceInfo();
 
-  }
+  // }
 
   toggleDarkMode() { 
     //TODO: Pending implementation dark mode

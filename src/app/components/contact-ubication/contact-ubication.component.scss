@@ -61,6 +61,19 @@
   text-transform: uppercase;
 }
 
+@media screen and (orientation: landscape) and (max-width: 896px) {
+  .map-footer,.email-footer {
+    font-size: 2em;
+  } 
+
+  .map-email{
+    h6 {
+      margin: 16px;
+    } 
+  } 
+
+}
+
 
 
 @media screen and (max-width: 767px) {

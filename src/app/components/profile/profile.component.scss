@@ -110,6 +110,31 @@
     }
 }
 
+@media screen and (orientation: landscape) and (max-width: 896px) {
+    .profile-container {
+
+        .left-section {
+            .name {
+                font-size: 2.9rem;
+            }
+        }
+    }
+
+    .image-profile {
+    
+        img {
+            padding: 50px;
+            width: 310px;
+        }
+    
+        ion-img {
+            padding: 50px;
+            width: 310px;
+        }
+    }
+}
+
+
 @media screen and (max-width: 820px) {
     .profile-container {
         .left-section {

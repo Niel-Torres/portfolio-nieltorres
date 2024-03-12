@@ -361,6 +361,31 @@
     }
   }
 
+  @media screen and (orientation: landscape) and (max-width: 896px) {
+    .project {
+      margin: 0px 7%; 
+    }
+
+    .experience-icons {
+      margin-left: 0%;
+      margin-right: 0%;
+    }
+
+    .herramienta-icon{
+      font-size: 2.1em;
+    }
+
+    .project-title{
+      font-size: 20px;
+    }
+
+    .job-experience {
+      .iconShowMore {
+        font-size: 30px;
+      }
+    }
+  }
+
   @media screen and (max-width: 767px){
 
     h2 {

@@ -48,6 +48,36 @@
   }
 }
 
+@media screen and (orientation: landscape) and (max-width: 896px) {
+  
+  .contentPage {
+    .title {
+      font-size: 3.168rem;
+    }
+
+    p{
+      font-size: 1.2rem;
+    }
+  }
+
+  .content {
+    margin: 5% 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aboutMe-profile {
+    ion-img {
+      width: 330px;
+    }
+  }
+
+}
+
 @media screen and (max-width: 767px) {
   .contentPage {
     padding-top: 25%;
