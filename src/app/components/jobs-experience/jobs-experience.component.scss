@@ -93,8 +93,9 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    //margin-left: 10%;
+    //margin-right: 10%;
+    margin: 5% 10%;
   }
 
   .project-imageContainer img {
@@ -221,7 +222,7 @@
   }
 
   .medium {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 
 
@@ -283,7 +284,7 @@
   }
 
   .description.medium {
-    margin-top: 1em; 
+    margin-top: 0.8em; 
   }
 
   .experience-roles-container {
@@ -529,4 +530,21 @@
     } 
 
   }
+
+  @media screen and (max-width: 280px){
+    .medium {
+      font-size: .7em;
+    }
+
+    .experience-container { 
+      .list-container {
+        .timeline {
+            margin-right: 0px;
+        }
+      }
+    }
+
+
+
+  } 
 

@@ -49,12 +49,14 @@
     border: 5px solid gray;
     border-radius: 10px;
     margin-bottom: 15px;
-    padding: 35px;
+    padding: 35px 0px;
     background: white;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
+    align-content: center;
+    flex-direction: row;
   }
 
   .project-course,
@@ -81,10 +83,11 @@
   
   .project-details {
     //width: 40%;
+    width: 30%;
   }
   
   .project-imageContainer {
-    //width: 60%;
+    width: 60%;
   }
 
   .experience-icons {
@@ -93,8 +96,9 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    //margin-left: 10%;
+    //margin-right: 10%;
+    margin: 5% 10%;
   }
 
   .project-imageContainer img {
@@ -162,13 +166,13 @@
             display: block;
             width: 48px;
             height: 48px; 
-            margin-top: 4px;
+            //margin-top: 4px;
         }
 
     }
 
    .position-detail {
-        margin-left: 5px;
+        margin-left: 10px;
     }
 
     .landmark {
@@ -199,6 +203,7 @@
 
     dl {
         padding-bottom: 12px;
+        width: 100%;
     }
 
     dd {
@@ -220,8 +225,16 @@
     font-weight: 600;
   }
 
+  .medium-company {
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #0009;
+  }
+
   .medium {
-    font-size: 1em;
+    font-size: 0.8em;
+    font-weight: 300;
+    color: #0009;
   }
 
 
@@ -262,7 +275,7 @@
 
   .small-light {
     font-size: .8em;
-    font-weight: 500;
+    font-weight: 400;
     color: rgba(0,0,0,0.6);
   }
 
@@ -270,6 +283,7 @@
     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubun-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubuntu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-seriftu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-serif;
     font-size: 14px;
     color: #0009;
+    width: 100%;
   }
 
   .tecnologia-icon, .herramienta-icon {
@@ -285,10 +299,11 @@
 
   .description.medium {
     margin-top: 1em; 
+    width: 80%;
   }
 
   .experience-roles-container {
-    margin-right: 10em;
+    margin-right: 5em;
   }
   /* END section experience*/
 
@@ -326,9 +341,13 @@
   .job-experience{
     display: flex;
     flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
 
     .job-experience_header{
-        width: 350px;
+        width: 80%;
     }
 
     .iconShowMore{
@@ -369,6 +388,7 @@
     .experience-icons {
       margin-left: 0%;
       margin-right: 0%;
+      padding: 0px;
     }
 
     .herramienta-icon{
@@ -463,13 +483,17 @@
     .job-experience{
 
         .job-experience_header{
-            width: 300px;
+            width: 80%;
         }
 
         .iconShowMore{
             margin-left: 20px;
         }
     } 
+
+    .herramienta-text{
+      margin-top: 7%;
+    }
   }
 
   @media screen and (max-width: 480px){
@@ -480,9 +504,6 @@
     .project-details {
       width: auto;
       font-size: 14px;
-    }
-
-    .herramienta-text{
     }
 
     .tecnologia-text, .herramienta-text{
@@ -504,7 +525,7 @@
 
     .job-experience{
         .job-experience_header{
-            width: auto;
+            width: 70%;
         }
 
         .iconShowMore{
@@ -554,4 +575,28 @@
     } 
 
   }
+
+  @media screen and (max-width: 280px){
+    .medium {
+      font-size: .7em;
+    }
+
+    .experience-container { 
+      .list-container {
+        .timeline {
+            margin-right: 0px;
+        }
+      }
+    }
+
+    .job-experience {
+      .iconShowMore {
+        font-size: 25px;
+      }
+
+    }
+
+
+
+  } 
 

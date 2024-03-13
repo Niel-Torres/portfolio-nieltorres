@@ -10,7 +10,7 @@
             </figure>
             <div class="position-detail">
               <div class="large-semibold"><span class="empresa">{{job.nameCompany}}</span></div>
-              <div class="medium">{{job.durationCompany}}</div>
+              <div class="medium-company">{{job.durationCompany}}</div>
             </div>
           </a>
           <div class="experience-roles-container collapsable-list-container">
@@ -25,9 +25,6 @@
                   <div class="job-experience">
                     <div class="job-experience_header">
                       <dt class="medium-semibold"><span>{{jobRol.nameRoleCompany}}</span></dt>
-                      <dd>
-                        <span class="medium">{{jobRol.dateEndRolCompany}}</span>
-                      </dd>
                       <dd *ngIf="jobRol.idJobRole === 'job-5-1'; else jobOptional">
                         <span class="medium">{{jobRol.dateIniRolCompany}} - </span><span class="medium">{{jobRol.dateEndRolCompany}} • {{monthsWorked + " meses"}}</span>
                       </dd>
