@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact-ubication.component.scss'],
 })
 export class ContactUbicationComponent  implements OnInit {
-  email: string = 'niel.torres@08gmail.com';
+  email: string = 'niel.torres08@gmail.com';
+  city: string = 'Madrid, España';
 
   constructor() { }
 
