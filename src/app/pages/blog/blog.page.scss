@@ -1,3 +1,19 @@
 .hidden {
-    contain: layout size style;
+  contain: layout size style;
+  display: block;
+}
+
+article {
+  img {
+    object-fit: contain;
   }
+}
+
+.page-complete {
+  background: radial-gradient(#493845, black);
+}
+
+.text-description-blog {
+  font-family: Fira Sans, sans-serif;
+  font-weight: 600;
+}

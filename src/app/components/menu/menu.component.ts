@@ -23,9 +23,10 @@ const linksMenu = [
   },
   {
     name: 'Blog',
-    link: '',
+    link: '/blog',
     icon: 'book-outline',
-    url: 'https://medium.com/@nieltorres_/list/mi-blog-e6f2e63bdc98'
+    url: ''
+    // url: 'https://medium.com/@nieltorres_/list/mi-blog-e6f2e63bdc98'
   },
   {
     name: 'Mi CV',
