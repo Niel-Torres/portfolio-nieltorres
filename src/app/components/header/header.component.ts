@@ -9,7 +9,25 @@ import { UtilsService } from 'src/app/services/utils/utils.service';
 })
 export class HeaderComponent implements OnInit {
 
-  showModeWeb = true;
+  public showModeWeb = true;
+
+  public alertButtons2 = [
+    {
+      text: 'Si',
+      role: 'confirm',
+      handler: () => {
+        console.log('Alert confirmed');
+        this.goToLink();
+      },
+    },
+    {
+      text: 'No',
+      role: 'cancel',
+      handler: () => {
+        console.log('Alert canceled');
+      },
+    },
+  ];
 
   constructor(
     private utilService: UtilsService
@@ -47,6 +65,10 @@ export class HeaderComponent implements OnInit {
     //TODO: Pending use with enviroments file
     const URL = "https://drive.google.com/file/d/1gHlFJLNi30adF28GPxE9aaJeaMx1TQiu/view?usp=sharing";
     this.utilService.goToLink(URL, "_blank");
+  }
+
+  setResult(ev: any) {
+    console.log(`Dismissed with role: ${ev.detail.role}`);
   }
 
 }

@@ -53,7 +53,7 @@ export class ProjectsComponent  implements OnInit {
       case 'Web':
         console.log('Web');
         this.showWebProjects = true;
-        this.showHybridProjects = false;
+        this.showHybridProjects = true;
         this.showAndroidProjects = false;
         this.showiOSProjects = false;
         break;

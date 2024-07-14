@@ -12,7 +12,7 @@ const article = [
   },
   {
     title: 'Migrar de UIWebView a WKWebView en Ionic',
-    description: 'Hace ya algunos años, apple lanzó un comunicado con un “deadline” para migrar de UIWebView a WKWebView...',
+    description: ' Pasos para migrar de UIWebView a WKWebView...',
     datePublication: 'Sep 23, 2022',
     label1: 'iOS',
     label2: 'WKWebView',
@@ -22,7 +22,7 @@ const article = [
     autorPosition: 'Co-Founder / CTO'
   },
   {
-    title: 'Pasos para trabajar con Notifications push en Ionic con Firebase',
+    title: 'Notifications push en Ionic con Firebase',
     description: 'Cómo implementar notificaciones push con Firebase en ionic, angular y capacitor...',
     datePublication: 'Sep 27, 2022',
     label1: 'Ionic',
@@ -33,7 +33,7 @@ const article = [
     autorPosition: 'Co-Founder / CTO'
   },
   {
-    title: 'SOLID y los 5 principios que te ayudarán a construir código de calidad',
+    title: 'SOLID y los 5 principios para construir código de calidad',
     description: 'Esste post es un curso que he realizado para aprender a aplicar los 5 principios solid en tus proyectos con Ionic & Angular...',
     datePublication: 'May 25, 2023',
     label1: 'SOLID',
@@ -44,7 +44,7 @@ const article = [
     autorPosition: 'Co-Founder / CTO'
   },
   {
-    title: 'Error DNS_PROBE_FINISHED_NXDOMAIN en emulador de Android',
+    title: 'Solucioanar error DNS_PROBE_FINISHED_NXDOMAIN',
     description: 'Error DNS_PROBE_FINISHED_NXDOMAIN en emulador de Android Después de conectaros a la VPN corporativa de un cliente (cisco,...',
     datePublication: 'Ene 18, 2024',
     label1: 'Android',

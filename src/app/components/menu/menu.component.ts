@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+import { Menu } from 'src/app/interaces/menu';
 import { MenuService } from 'src/app/services/menu/menu.service';
 import { UtilsService } from 'src/app/services/utils/utils.service';
 
-const linksMenu = [
+const linksMenu : Menu[] = [
   {
     name: 'Inicio',
     link: '/portfolio',
@@ -10,15 +11,15 @@ const linksMenu = [
     url: ''
   },
   {
-    name: 'Proyectos',
-    link: '/proyectos',
-    icon: 'code-slash-outline',
-    url: ''
-  },
-  {
     name: 'Sobre mí',
     link: '/sobre-mi',
     icon: 'id-card-outline',
+    url: ''
+  },
+  {
+    name: 'Proyectos',
+    link: '/proyectos',
+    icon: 'code-slash-outline',
     url: ''
   },
   {
@@ -43,7 +44,24 @@ const linksMenu = [
 })
 export class MenuComponent implements OnInit {
 
-  linksMenu = linksMenu;
+  public linksMenu = linksMenu;
+
+  public alertButtons = [
+    {
+      text: 'Si',
+      role: 'confirm',
+      handler: () => {
+        this.goToLink('https://drive.google.com/file/d/1gHlFJLNi30adF28GPxE9aaJeaMx1TQiu/view?usp=sharing');
+      },
+    },
+    {
+      text: 'No',
+      role: 'cancel',
+      handler: () => {
+        console.log('Alert canceled');
+      },
+    },
+  ];
 
 
   constructor(
@@ -69,6 +87,10 @@ export class MenuComponent implements OnInit {
 
   goToLink(url: string) {
     this.utilService.goToLink(url, "_blank");
+  }
+
+  setResult(ev: any) {
+    console.log(`Dismissed with role: ${ev.detail.role}`);
   }
 
 }
