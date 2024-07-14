@@ -5,9 +5,17 @@
 
     </div>
     <div class="description">
-      <h5>Estos son algunos de los proyectos en los que he participado, tanto a nivel laboral como personal. Durante mi trayectoria profesional, he tenido la oportunidad de trabajar en una variedad de proyectos que abarcan desde iniciativas corporativas hasta proyectos personales 
-        que reflejan mis intereses y pasiones fuera del ámbito laboral
+      <h5>Estos son algunos de los proyectos en los que he participado a lo largo de mi trayectoria profesional. He tenido la oportunidad de trabajar en diversas iniciativas, que van desde proyectos corporativos hasta emprendimientos personales que reflejan mis intereses y pasión en el desarrollo fuera del ámbito laboral.
       </h5>
+    </div>
+
+    <div class="projects-filter text-center">
+      <ul>
+        <li [class.active]="selectedPlatform === 'All'"><a href="javascript:void(0);" (click)="showProjects('All')">ALL</a></li>
+        <li [class.active]="selectedPlatform === 'Android'"><a href="javascript:void(0);" (click)="showProjects('Android')">Android</a></li>
+        <li [class.active]="selectedPlatform === 'iOS'"><a href="javascript:void(0);" (click)="showProjects('iOS')">iOS</a></li>
+        <li [class.active]="selectedPlatform === 'Web'"><a href="javascript:void(0);" (click)="showProjects('Web')">Web</a></li>
+      </ul>
     </div>
    
   </div>
@@ -15,93 +23,154 @@
   <div class="container-projects">
     <div class="projects">
 
-      <ion-card (mouseenter)="mostrarTexto()" (mouseleave)="ocultarTexto()">
+      <ion-card (mouseenter)="mostrarTexto()" (mouseleave)="ocultarTexto()" [hidden]="!showHybridProjects">
         <ion-img src="assets/images/projects/myhey.jpg"></ion-img>
         <ion-card-content [hidden]="!mostrar">
           <div class="card-content-project">
-            <p class="card-content-project-title">App | MyHey!</p>
-            <p class="card-content-project-subtitle">Aplicación móvil híbrida construída con ionic, angular y capacitor
-            </p>
+            <p class="card-content-project-title">App | MyHey</p>
+            <p class="card-content-project-subtitle">Ionic | Angular | Capacitor</p>
+            <br>
+            <p class="card-content-project-subtitle">App híbrida construida para el grupo Orange Bélgica</p>
+            <p class="card-content-project-subtitle">He formado parte del equipo de arquitectura para la construcción de una app area cliente de telefonía móvil en Bélgica</p>
           </div>
         </ion-card-content>
       </ion-card>
 
-      <ion-card (mouseenter)="mostrarTexto()" (mouseleave)="ocultarTexto()">
+      <ion-card (mouseenter)="mostrarTexto()" (mouseleave)="ocultarTexto()" [hidden]="!showHybridProjects">
         <ion-img src="assets/images/projects/boda1-gracedu-2.jpg"></ion-img>
         <ion-card-content [hidden]="!mostrar">
           <div class="card-content-project">
             <p class="card-content-project-title">Web | Invitación de Boda</p>
-            <p class="card-content-project-subtitle">Aplicación web construída con ionic, angular y capacitor</p>
+            <p class="card-content-project-subtitle">Ionic | Angular | Cordova</p>
+            <br>
+            <p class="card-content-project-subtitle">He construido esta web, la cual es una invitación de boda digital</p>
           </div>
         </ion-card-content>
       </ion-card>
 
-      <ion-card (mouseenter)="mostrarTexto()" (mouseleave)="ocultarTexto()">
+      <ion-card (mouseenter)="mostrarTexto()" (mouseleave)="ocultarTexto()" [hidden]="!showHybridProjects">
         <ion-img src="assets/images/projects/miorangeapp.jpg"></ion-img>
         <ion-card-content [hidden]="!mostrar">
           <div class="card-content-project">
             <p class="card-content-project-title">App | MiOrange</p>
-            <p class="card-content-project-subtitle">Aplicación híbrida construída con ionic, angular y cordova</p>
+            <p class="card-content-project-subtitle">Ionic | Angular | Cordova</p>
+            <br>
+            <p class="card-content-project-subtitle">App híbrida del grupo Orange España</p>
+            <p class="card-content-project-subtitle">He lidearado el mantenimiento y evolución de la app area cliente MiOrange</p>
           </div>
         </ion-card-content>
       </ion-card>
 
-      <ion-card (mouseenter)="mostrarTexto()" (mouseleave)="ocultarTexto()">
+      <ion-card (mouseenter)="mostrarTexto()" (mouseleave)="ocultarTexto()" [hidden]="!showWebProjects">
         <ion-img src="assets/images/projects/agendaunicaweb.jpg"></ion-img>
         <ion-card-content [hidden]="!mostrar">
           <div class="card-content-project">
             <p class="card-content-project-title">Web | Portales orange</p>
-            <p class="card-content-project-subtitle">Aplicaciones web construída con php</p>
+            <p class="card-content-project-subtitle">PHP | SQL | Apache</p>
+            <br>
+            <p class="card-content-project-subtitle">He lidearado el mantenimiento y evolución de las plataformas web internas del grupo Orange</p>
           </div>
         </ion-card-content>
       </ion-card>
 
-      <ion-card (mouseenter)="mostrarTexto()" (mouseleave)="ocultarTexto()">
+      <ion-card (mouseenter)="mostrarTexto()" (mouseleave)="ocultarTexto()" [hidden]="!showHybridProjects">
         <ion-img src="assets/images/projects/jazztelapp-1.jpg"></ion-img>
         <ion-card-content [hidden]="!mostrar">
           <div class="card-content-project">
             <p class="card-content-project-title">App | MiJazztel</p>
-            <p class="card-content-project-subtitle">Aplicación híbrida construída con ionic, angular y cordova</p>
+            <p class="card-content-project-subtitle">Ionic | Angular | Capacitor</p>
+            <br>
+            <p class="card-content-project-subtitle">App híbrida del grupo Orange España</p>
+            <p class="card-content-project-subtitle">He lidearado el mantenimiento y evolución de la app area cliente MiJazztel del grupo Orange</p>
           </div>
         </ion-card-content>
       </ion-card>
 
-      <ion-card (mouseenter)="mostrarTexto()" (mouseleave)="ocultarTexto()">
+      <ion-card (mouseenter)="mostrarTexto()" (mouseleave)="ocultarTexto()" [hidden]="!showWebProjects">
         <ion-img src="assets/images/projects/okn-project-1.jpeg"></ion-img>
         <ion-card-content [hidden]="!mostrar">
           <div class="card-content-project">
             <p class="card-content-project-title">Web | Plataforma e-learning</p>
-            <p class="card-content-project-subtitle">Aplicaciones web construída con php</p>
+            <p class="card-content-project-subtitle">PHP</p>
+            <br>
+            <p class="card-content-project-subtitle">He participado en el mantenimiento y evolución de esta aplicacion web de tipo e-learning, la cual fue construida con php vanilla</p>
           </div>
         </ion-card-content>
       </ion-card>
 
-      <ion-card (mouseenter)="mostrarTexto()" (mouseleave)="ocultarTexto()">
-        <ion-img src="assets/images/projects/dispel-1.jpeg"></ion-img>
+      <ion-card (mouseenter)="mostrarTexto()" (mouseleave)="ocultarTexto()" [hidden]="!showWebProjects">
+        <ion-img src="assets/images/projects/dispelweb.png"></ion-img>
         <ion-card-content [hidden]="!mostrar">
           <div class="card-content-project">
-            <p class="card-content-project-title">Web | Aplicación web para empresa de publicidad</p>
-            <p class="card-content-project-subtitle">Aplicación web construída con wordpress</p>
+            <p class="card-content-project-title">Web | Dispel publicidad</p>
+            <p class="card-content-project-subtitle">Wordpress</p>
+            <br>
+            <p class="card-content-project-subtitle">He liderado la contrucción de esta aplicación web para una empresa de publicidad</p>
           </div>
         </ion-card-content>
       </ion-card>
 
-      <ion-card (mouseenter)="mostrarTexto()" (mouseleave)="ocultarTexto()">
+      <ion-card (mouseenter)="mostrarTexto()" (mouseleave)="ocultarTexto()" [hidden]="!showWebProjects">
         <ion-img src="assets/images/projects/pokemon.jpg"></ion-img>
         <ion-card-content [hidden]="!mostrar">
           <div class="card-content-project">
-            <p class="card-content-project-title">Web | Aplicación web enfocado a pokemón GO </p>
-            <p class="card-content-project-subtitle">Aplicación web construída con Angular JS</p>
+            <p class="card-content-project-title">Web | Pokemón GO </p>
+            <p class="card-content-project-subtitle">Angular JS</p>
+            <p class="card-content-project-subtitle">Proyecto personal</p>
+            <br>
+            <p class="card-content-project-subtitle">Aplicación web que simula una pokedex</p>
           </div>
         </ion-card-content>
       </ion-card>
 
-      <ion-card (mouseenter)="mostrarTexto()" (mouseleave)="ocultarTexto()">
+      <ion-card (mouseenter)="mostrarTexto()" (mouseleave)="ocultarTexto()" [hidden]="!showHybridProjects">
         <ion-img src="assets/images/projects/nieltorresweb.jpg"></ion-img>
         <ion-card-content [hidden]="!mostrar">
           <div class="card-content-project">
             <p class="card-content-project-title">Web | Portafolio web</p>
-            <p class="card-content-project-subtitle">Aplicaciones web construída con Ionic, Angular y Capacitor</p>
+            <p class="card-content-project-subtitle">Ionic | Angular | Capacitor</p>
+            <p class="card-content-project-subtitle">Proyecto personal</p>
+            <br>
+            <p class="card-content-project-subtitle">Aplicación híbrida construida para la web nieltorres.com</p>
+          </div>
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card (mouseenter)="mostrarTexto()" (mouseleave)="ocultarTexto()" [hidden]="!showHybridProjects">
+        <ion-img src="assets/images/projects/calidadelaire.png"></ion-img>
+        <ion-card-content [hidden]="!mostrar">
+          <div class="card-content-project">
+            <p class="card-content-project-title">App | Calidad del Aire</p>
+            <p class="card-content-project-subtitle">Ionic | Angular | Capacitor</p>
+            <br>
+            <p class="card-content-project-subtitle">Aplicación híbrida construida para la Junta de Andalucía</p>
+            <p class="card-content-project-subtitle">He liderado la contrucción de esta APP, la cual  nos brinda información de la calidad del aire en diferentes zonas de Andalucía, además te envía notificaciones en tiempo real</p>
+          </div>
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card (mouseenter)="mostrarTexto()" (mouseleave)="ocultarTexto()" [hidden]="!showHybridProjects">
+        <ion-img src="assets/images/projects/carpeta_ciudadana.png"></ion-img>
+        <ion-card-content [hidden]="!mostrar">
+          <div class="card-content-project">
+            <p class="card-content-project-title">App | Carpeta Ciudadana</p>
+            <p class="card-content-project-subtitle">kotlin | Swift UI</p>
+            <br>
+            <p class="card-content-project-subtitle">Aplicación nativa construida para la Junta de Andalucía</p>
+            <p class="card-content-project-subtitle">He participado en la contrucción de esta APP, la cual nos da un acceso sencillo y rápido a diferentes tipos de información relacionado con los trámites de la Administración de la Junta de Andalucía</p>
+          </div>
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card (mouseenter)="mostrarTexto()" (mouseleave)="ocultarTexto()" [hidden]="!showAndroidProjects">
+        <ion-img src="assets/images/projects/caminame.png"></ion-img>
+        <ion-card-content [hidden]="!mostrar">
+          <div class="card-content-project">
+            <p class="card-content-project-title">App | Camíname</p>
+            <p class="card-content-project-subtitle">Ionic | Angular | Capacitor</p>
+            <br>
+            <p class="card-content-project-subtitle">Aplicación híbrida construida para la Junta de Andalucía</p>
+            <p class="card-content-project-subtitle">He liderado la contrucción de esta APP, la cual nos brinda un listado de rutas de Andalucía, desde las cuales podemos hacer el recorrido en tiempo real</p>
           </div>
         </ion-card-content>
       </ion-card>

@@ -2,6 +2,10 @@
     background: radial-gradient(#493845, black);
     padding: 10px;
 
+    border-style: solid;
+    border-width: 1px 0px 1px 0px;
+    border-color: #3A3A3A;
+
     .projects-title {
         display: flex;
         flex-direction: column;
@@ -14,6 +18,7 @@
     
         h2{
             font-family: "Fira Sans", sans-serif;
+            //font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
             font-weight: 600;
             font-size: 2rem;
             color: white;
@@ -24,13 +29,47 @@
             max-width: 900px;
             margin: 0px 8%;
             h5 {
-                font-family: "Fira Sans", sans-serif;
+                //font-family: "Fira Sans", sans-serif;
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
                 font-weight: 400;
                 color: lightyellow;
                 margin-bottom: 3%;
                 text-align: justify;
             }
         }
+
+        .projects-filter {
+            
+
+            .text-center {
+                text-align: center !important;
+               
+            }
+
+            li {
+                color: #fffffd;
+                display: inline-block;
+                margin: 10px;
+
+                a {
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                    font-size: 11px;
+                    font-weight: 600;
+                    border-bottom: 1px solid transparent;
+                }
+
+               
+            }
+
+            .active {
+                cursor: default;
+                border-bottom: 1px solid #fffffd;
+                color: #fffffd;
+            }
+
+        }
+
     }
 
     .container-projects{
@@ -63,14 +102,17 @@
 
 ion-card {
     position: relative;
-    border-radius: 0px;
+    //border-radius: 0px;
 
-    -webkit-margin-start: 0px !important; 
-    margin-inline-start: 0px !important;
-    -webkit-margin-end: 0px !important;
-    margin-inline-end: 0px !important;
-    margin-top: 0px !important;
-    margin-bottom: 0px !important;
+    //-webkit-margin-start: 0px !important; 
+    //margin-inline-start: 0px !important;
+    //-webkit-margin-end: 0px !important;
+    //margin-inline-end: 0px !important;
+    //margin-top: 0px !important;
+    //margin-bottom: 0px !important;
+    margin: 5px;
+    border-radius: 50px;
+    cursor: crosshair;
 }
   
 ion-img {
@@ -103,7 +145,7 @@ ion-card-content {
     transition: opacity 0.5s ease;
 
     p { 
-        color: whitesmoke
+        color: whitesmoke;
     }
 }
   
@@ -120,7 +162,6 @@ ion-card:hover ion-card-content {
     flex-wrap: nowrap;
 
     .card-content-project-title {
-        
         font-size: 20px;
         color: #ffffff;
         text-shadow: #fffffd 1px 0 10px;
@@ -130,20 +171,61 @@ ion-card:hover ion-card-content {
         font-size: 14px;
         color: #ffffff;
         text-shadow: #fffffd 1px 0 10px;
+        display: block;
     }
     
 }
 
-@media screen and (max-width: 385px){
+@media screen and (max-width: 820px){
 
     .section-projects { 
         .container-projects{
-
             .projects {
-                //display: grid;
-            
                 ion-img {
-                    width: 300px;
+                    width: 180px;
+                    height: 180px;
+                }
+            }
+        }
+    }
+
+    .card-content-project {
+    
+        .card-content-project-title {
+            font-size: 12px;
+            text-align: center;
+        }
+    
+        .card-content-project-subtitle{
+            font-size: 8px;
+            text-align: center;
+        }
+        
+    }
+}   
+    
+@media screen and (max-width: 768px){
+
+    .section-projects { 
+        .container-projects{
+            .projects {            
+                ion-img {
+                    width: 150px;
+                    height: 150px;
+                }
+            }
+          }
+    }
+}    
+
+@media screen and (max-width: 430px){
+
+    .section-projects { 
+        .container-projects{
+            .projects {            
+                ion-img {
+                    width: 110px;
+                    height: 110px;
                 }
     
             }
@@ -152,11 +234,22 @@ ion-card:hover ion-card-content {
 
     ion-card {
         border-radius: 20px;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px !important;
-        margin-top: 0px !important;
-        margin-bottom: 15px !important;
-        filter: drop-shadow(0 0 0.75rem #AC3CA8);
+        //margin-inline-start: 0px;
+        //margin-inline-end: 0px !important;
+        //margin-top: 0px !important;
+        //margin-bottom: 15px !important;
+        //filter: drop-shadow(0 0 0.75rem #AC3CA8);
+    }
+
+    .card-content-project {
+    
+        .card-content-project-subtitle{
+            display: none;
+        }
+    }
+
+    .card-content-md p {
+        margin-bottom: 0px;
     }
 
 }
@@ -165,10 +258,7 @@ ion-card:hover ion-card-content {
 
     .section-projects { 
         .container-projects{
-
-            .projects {
-                //display: grid;
-            
+            .projects {            
                 ion-img {
                     width: 240px;
                 }
