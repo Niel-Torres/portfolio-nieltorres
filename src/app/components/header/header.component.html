@@ -36,19 +36,11 @@
           <ion-icon name="moon"></ion-icon>
         </ion-button> -->
 
-        <ion-button id="present-alert2">
+        <ion-button (click)="presentAlert()">
           <ion-label>Mi CV</ion-label>
         </ion-button>
-        <ion-alert
-          trigger="present-alert2"
-          header="¿Descargar CV?"
-          [buttons]="alertButtons2"
-          (didDismiss)="setResult($event)">
-        </ion-alert>
 
       </ion-buttons>
-
-      
     </div>
   </div>
 </div>

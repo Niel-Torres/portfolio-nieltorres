@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Device } from '@capacitor/device';
 import { UtilsService } from 'src/app/services/utils/utils.service';
+import { AlertController } from '@ionic/angular';
 
 @Component({
   selector: 'app-header',
@@ -11,26 +12,9 @@ export class HeaderComponent implements OnInit {
 
   public showModeWeb = true;
 
-  public alertButtons2 = [
-    {
-      text: 'Si',
-      role: 'confirm',
-      handler: () => {
-        console.log('Alert confirmed');
-        this.goToLink();
-      },
-    },
-    {
-      text: 'No',
-      role: 'cancel',
-      handler: () => {
-        console.log('Alert canceled');
-      },
-    },
-  ];
-
   constructor(
-    private utilService: UtilsService
+    private utilService: UtilsService,
+    private alertController: AlertController
   ) { }
 
   ngOnInit() {
@@ -67,8 +51,27 @@ export class HeaderComponent implements OnInit {
     this.utilService.goToLink(URL, "_blank");
   }
 
-  setResult(ev: any) {
-    console.log(`Dismissed with role: ${ev.detail.role}`);
+  async presentAlert() {
+    const alert = await this.alertController.create({
+      header: '¿Descargar CV?',
+      buttons: [
+          {
+            text: 'No',
+            handler: () => {
+              console.log('Alert canceled');
+            },
+          },
+          {
+            text: 'Si',
+            handler: () => {
+              console.log('Alert confirmed');
+              this.goToLink();
+            },
+          },
+        ]
+    });
+
+    await alert.present();
   }
 
 }

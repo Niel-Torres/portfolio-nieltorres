@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AlertController } from '@ionic/angular';
 import { Menu } from 'src/app/interaces/menu';
 import { MenuService } from 'src/app/services/menu/menu.service';
 import { UtilsService } from 'src/app/services/utils/utils.service';
@@ -66,7 +67,8 @@ export class MenuComponent implements OnInit {
 
   constructor(
     private menuService: MenuService,
-    private utilService: UtilsService
+    private utilService: UtilsService,
+    private alertController: AlertController
   ) { 
   }
 
@@ -89,8 +91,27 @@ export class MenuComponent implements OnInit {
     this.utilService.goToLink(url, "_blank");
   }
 
-  setResult(ev: any) {
-    console.log(`Dismissed with role: ${ev.detail.role}`);
+  async presentAlert(url: string) {
+    const alert = await this.alertController.create({
+      header: '¿Descargar CV?',
+      buttons: [
+          {
+            text: 'No',
+            handler: () => {
+              console.log('Alert canceled');
+            },
+          },
+          {
+            text: 'Si',
+            handler: () => {
+              console.log('Alert confirmed');
+              this.goToLink(url);
+            },
+          },
+        ]
+    });
+
+    await alert.present();
   }
 
 }

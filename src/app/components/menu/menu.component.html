@@ -16,21 +16,10 @@
         </ion-button>
 
         <ng-template #buttonOptional>
-          <!-- <ion-button (click)="goToLink(linkMenu.url)">
-            <ion-icon name="{{linkMenu.icon}}"></ion-icon>
-            <ion-label>{{linkMenu.name}}</ion-label>
-          </ion-button> -->
-
-          <ion-button id="present-alert">
+          <ion-button (click)="presentAlert(linkMenu.url)">
             <ion-icon name="{{linkMenu.icon}}"></ion-icon>
             <ion-label>{{linkMenu.name}}</ion-label>
           </ion-button>
-          <ion-alert
-          trigger="present-alert"
-          header="¿Descargar CV?"
-          [buttons]="alertButtons"
-          (didDismiss)="setResult($event)">
-        </ion-alert>
         </ng-template>
       </ion-menu-toggle>
     </ion-buttons>
