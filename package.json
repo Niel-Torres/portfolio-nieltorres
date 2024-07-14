@@ -7,9 +7,9 @@
     "use:node": "nvm use",
     "start": "ionic serve",
     "prepare:global:nieltorres": "ionic build --prod -- --base-href https://nieltorres.com/",
+    "deploy:global:local": "npx angular-cli-ghpages --dir=www",
     "deploy:github:branch:ghpages": "ionic build --prod -- --base-href https://niel-torres.github.io/portfolio-nieltorres/ && npx angular-cli-ghpages --branch=gh-pages --dir=www",
-    "deploy:github:branch:master": "ionic build --prod -- --base-href https://niel-torres.github.io/portfolio-nieltorres/ && npx angular-cli-ghpages --branch=master --dir=www",
-    "deploy:global:local": "npx angular-cli-ghpages --dir=www"
+    "deploy:github:branch:master": "ionic build --prod -- --base-href https://niel-torres.github.io/portfolio-nieltorres/ && npx angular-cli-ghpages --branch=master --dir=www"
   },
   "private": true,
   "dependencies": {
