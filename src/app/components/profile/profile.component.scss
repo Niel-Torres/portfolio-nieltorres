@@ -74,6 +74,10 @@
 .circulo {
     background: radial-gradient(#AC3CA8, black);
     filter: drop-shadow(0 0 3.75rem #AC3CA8);
+    
+   //background: radial-gradient(#590356, black);
+    //filter: drop-shadow(0 0 3.75rem red);
+
     flex-direction: column;
     align-items: center;
     box-shadow: 3px 5px 4px rgba(0, 0, 0, .25);

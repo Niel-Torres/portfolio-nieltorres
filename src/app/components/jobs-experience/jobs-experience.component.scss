@@ -337,6 +337,10 @@
         display: flex;
         align-items: center;
         margin-left: 55px;
+
+        dd {
+          cursor: pointer;
+        }
     }
   }    
 

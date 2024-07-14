@@ -13,6 +13,7 @@ export class AboutMePage implements OnInit {
   bornDate: Date = new Date('1988-05-25');
   currentDate: Date = new Date();
   myCurrentAge: number = 35;
+  timeJob: number = 8;
 
   constructor(
     private menuService: MenuService
@@ -40,5 +41,7 @@ export class AboutMePage implements OnInit {
   updateCurrentAge() {
     const diffCurrentDateBornDate = this.currentDate.getTime() - this.bornDate.getTime();
     this.myCurrentAge = new Date(diffCurrentDateBornDate).getFullYear() - 1970;
+
+    this.timeJob = this.timeJob + (new Date(this.currentDate.getTime()).getFullYear() - 2024);
   }
 }
