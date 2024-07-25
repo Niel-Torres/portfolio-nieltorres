@@ -22,7 +22,7 @@ const article = [
     autorPosition: 'Co-Founder / CTO'
   },
   {
-    title: 'Notifications push en Ionic con Firebase',
+    title: 'Notificaciones push en Ionic con Firebase',
     description: 'Cómo implementar notificaciones push con Firebase en ionic, angular y capacitor...',
     datePublication: 'Sep 27, 2022',
     label1: 'Ionic',
@@ -44,7 +44,7 @@ const article = [
     autorPosition: 'Co-Founder / CTO'
   },
   {
-    title: 'Solucioanar error DNS_PROBE_FINISHED_NXDOMAIN',
+    title: 'Solución a error DNS_PROBE_FINISHED_NXDOMAIN',
     description: 'Error DNS_PROBE_FINISHED_NXDOMAIN en emulador de Android Después de conectaros a la VPN corporativa de un cliente (cisco,...',
     datePublication: 'Ene 18, 2024',
     label1: 'Android',
