@@ -20,9 +20,10 @@ export class JobExperienceCompanyComponent  implements OnInit {
   elementsIconsVisible = new Map<number, boolean>();
 
   //TODO: Implementarlo con el API 
-  dateWorkStart: Date = new Date('2023-05-01');  
+  dateWorkStart: Date = new Date('2024-07-01');  
   dateCurrent: Date = new Date(); 
   monthsWorked: number = 0;
+  stringMonth: string = "mes";
 
   constructor(
     private jobExperiencesService: JobExperiencesService
@@ -38,6 +39,10 @@ export class JobExperienceCompanyComponent  implements OnInit {
     const difMeses = (this.dateCurrent.getFullYear() - this.dateWorkStart.getFullYear()) * 12;
     countMonths = this.dateCurrent.getMonth() - this.dateWorkStart.getMonth() + difMeses;
     this.monthsWorked = countMonths+1;
+
+    if(this.monthsWorked > 1){
+      this.stringMonth = "meses";
+    }
   }
 
   getJobsExperiences(){

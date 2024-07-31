@@ -26,7 +26,7 @@
                     <div class="job-experience_header">
                       <dt class="medium-semibold"><span>{{jobRol.nameRoleCompany}}</span></dt>
                       <dd *ngIf="jobRol.idJobRole === 'job-5-1'; else jobOptional">
-                        <span class="medium">{{jobRol.dateIniRolCompany}} - </span><span class="medium">{{jobRol.dateEndRolCompany}} • {{monthsWorked + " meses"}}</span>
+                        <span class="medium">{{jobRol.dateIniRolCompany}} - </span><span class="medium">{{jobRol.dateEndRolCompany}} • {{monthsWorked + " "+ stringMonth}}</span>
                       </dd>
                       <ng-template #jobOptional>
                         <dd >
