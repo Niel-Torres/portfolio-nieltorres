@@ -7,12 +7,12 @@
     "jobRolesCompany": [
       {
         "idJobRole": "job-5-1",
-        "nameRoleCompany": "Jefe de proyecto",
-        "dateIniRolCompany": "May. 2023",
+        "nameRoleCompany": "Service Manager",
+        "dateIniRolCompany": "Jul. 2024",
         "dateEndRolCompany": "Actualidad",
-        "durationdRolCompany": "11 meses",
+        "durationdRolCompany": "1 mes",
         "locationdRolCompany": "Madrid",
-        "titleDescriptionRolCompany": "Responsable de proyectos de movilidad de sector público de la Junta Andalucía",
+        "titleDescriptionRolCompany": "Responsable de los proyectos de movilidad de sector público de la Junta de Andalucía",
         "descriptionRolCompany": [
           "Funciones principales:",
           "• Responsable de la gestión económica de los proyectos.",
@@ -20,6 +20,18 @@
           "• Apoyo a cliente en crear nuevas líneas de trabajo en desarrollo y arquitectura.",
           "• Coordinación y gestión de equipos de desarrollo en apps híbridas con Angular | Ionic | Capacitor",
           "• Coordinación y gestión de equipos de desarrollo en apps nativas con Android (Kotlin | Jetpack Compose) & iOS (Swift | Swift UI)"
+        ]
+      },
+      {
+        "idJobRole": "job-5-0",
+        "nameRoleCompany": "Jefe de Proyecto | Tech Lead Mobile Developer",
+        "dateIniRolCompany": "May. 2023",
+        "dateEndRolCompany": "Jun. 2024",
+        "durationdRolCompany": "13 meses",
+        "locationdRolCompany": "Madrid",
+        "titleDescriptionRolCompany": "Responsable de proyecto de movilidad de sector público de la Junta Andalucía",
+        "descriptionRolCompany": [
+          
         ]
       },
       {
